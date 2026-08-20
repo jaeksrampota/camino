@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "camino",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["build/devserver.js"],
+      "port": 4321
+    },
+    {
+      "name": "camino-nokv",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["build/devserver.js", "--no-kv"],
+      "port": 4322,
+      "env": { "PORT": "4322" }
+    }
+  ]
+}

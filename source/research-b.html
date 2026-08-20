@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#163d35">
+  <meta name="description" content="Accommodation shortlist for two adults walking the Camino del Norte from Donostia to Bilbao, 6–15 September 2026.">
+  <title>Camino del Norte — Donostia to Bilbao, Sep 2026</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --paper:#f3efe5; --paper-2:#e8e4d8; --card:#fffdf7; --ink:#18312c;
+      --muted:#66736f; --line:#d8d4c8; --forest:#163d35; --forest-2:#245c51;
+      --sea:#2d6f78; --sun:#d8993f; --rose:#994d40; --good:#2f7652; --warn:#a86824;
+      --shadow:0 12px 34px rgba(24,49,44,.09);
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink)}
+    a{color:inherit}
+    button,a{-webkit-tap-highlight-color:transparent}
+    .hero{position:relative;overflow:hidden;background:linear-gradient(145deg,#113a32 0%,#245c51 58%,#2d6f78 100%);color:#fff;padding:38px 20px 28px}
+    .hero:after{content:"";position:absolute;right:-58px;bottom:-115px;width:250px;height:250px;border:38px solid rgba(255,255,255,.08);border-radius:50%}
+    .hero-inner,main{width:min(100%,1120px);margin:0 auto}
+    .eyebrow{margin:0 0 10px;color:#cfe5dc;font-size:.72rem;font-weight:900;letter-spacing:.15em;text-transform:uppercase}
+    h1{position:relative;z-index:1;margin:0;max-width:800px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.15rem,9vw,4.35rem);font-weight:600;line-height:.96;letter-spacing:-.04em}
+    .hero-meta{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:8px 18px;margin:21px 0 0;color:#e6f1ed;font-size:.88rem}
+    .caveat{position:relative;z-index:1;margin:18px 0 0;padding:13px 14px;border:1px solid rgba(255,255,255,.25);border-radius:13px;background:rgba(255,255,255,.1);font-size:.82rem;line-height:1.5}
+    nav{position:sticky;z-index:20;top:0;overflow-x:auto;background:rgba(243,239,229,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(12px);scrollbar-width:none}
+    nav::-webkit-scrollbar{display:none}
+    .jump{display:flex;width:max-content;min-width:100%;gap:4px;margin:0 auto;padding:9px 13px}
+    .jump a{padding:9px 11px;border-radius:999px;color:var(--forest);font-size:.76rem;font-weight:850;text-decoration:none;white-space:nowrap}
+    .jump a:hover,.jump a:focus-visible,.jump a[aria-current="true"]{background:#d9e5df;outline:none}
+    main{padding:24px 15px 58px}
+    .legend{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 20px}
+    .legend span{padding:7px 9px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.46);font-size:.72rem;font-weight:800}
+    .route-strip{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:0 0 24px}
+    .route-day{padding:11px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.48)}
+    .route-day b{display:block;color:var(--sea);font-size:.7rem;letter-spacing:.05em;text-transform:uppercase}
+    .route-day span{display:block;margin-top:4px;font-family:Georgia,serif;font-size:1rem;line-height:1.18}
+    .quick-wrap{margin:24px 0 34px;padding:17px;border-radius:17px;background:var(--forest);color:white}
+    .quick-wrap h2{margin:0 0 11px;font:600 1.25rem Georgia,serif}
+    .quick-picks{display:grid;gap:7px}
+    .quick-pick{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 10px;border-radius:10px;background:rgba(255,255,255,.09);font-size:.78rem}
+    .quick-pick strong{font-size:.8rem}
+    .quick-pick span{color:#d9e8e2;text-align:right}
+    section{scroll-margin-top:72px;margin:43px 0}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:14px;margin-bottom:10px;padding-bottom:12px;border-bottom:2px solid var(--forest)}
+    .section-head h2{margin:0;font-family:Georgia,serif;font-size:clamp(1.6rem,6vw,2.25rem);font-weight:600}
+    .section-head p{margin:5px 0 0;color:var(--muted);font-size:.8rem}
+    .night-chip{flex:none;padding:6px 9px;border-radius:999px;background:var(--forest);color:#fff;font-size:.7rem;font-weight:900}
+    .market-note{margin:0 0 14px;padding:10px 12px;border-left:3px solid var(--sun);background:rgba(216,153,63,.09);color:var(--muted);font-size:.78rem;line-height:1.45}
+    .cards{display:grid;grid-template-columns:1fr;gap:12px}
+    .card{position:relative;display:flex;min-width:0;flex-direction:column;padding:16px;border:1px solid var(--line);border-radius:17px;background:var(--card);box-shadow:var(--shadow)}
+    .card.top{border-color:#7da38f;box-shadow:0 12px 34px rgba(47,118,82,.14)}
+    .top-ribbon{position:absolute;top:12px;right:12px;padding:5px 7px;border-radius:999px;background:#dcece4;color:#20573d;font-size:.64rem;font-weight:950;letter-spacing:.05em;text-transform:uppercase}
+    .badges{display:flex;flex-wrap:wrap;gap:6px;padding-right:72px}
+    .badge{display:inline-flex;align-items:center;min-height:24px;padding:4px 7px;border-radius:999px;font-size:.65rem;font-weight:900;letter-spacing:.035em}
+    .tier{background:#f1dfb9;color:#6d4818}
+    .type{background:#dce8e6;color:#245b59}
+    .avail{background:#eee9de;color:#665f52}
+    .avail.dated{background:#dcece4;color:#20573d}
+    .card h3{margin:13px 0 7px;padding-right:4px;font-family:Georgia,serif;font-size:1.28rem;line-height:1.12}
+    .price{margin:0 0 8px;font-weight:900;color:var(--forest)}
+    .price small{display:block;margin-top:3px;color:var(--muted);font-size:.67rem;font-weight:550;line-height:1.38}
+    .price a{font-weight:800;text-underline-offset:2px}
+    .facts{display:grid;gap:7px;margin:6px 0 10px}
+    .fact{display:grid;grid-template-columns:21px 1fr;gap:5px;color:var(--muted);font-size:.76rem;line-height:1.42}
+    .fact i{font-style:normal}
+    .why{margin:auto 0 0;padding-top:8px;border-top:1px solid var(--line);font-size:.78rem;font-weight:720;line-height:1.42}
+    .links{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}
+    .btn{display:inline-flex;min-height:39px;align-items:center;justify-content:center;padding:9px 11px;border:1px solid var(--line);border-radius:10px;background:transparent;color:var(--ink);font-size:.72rem;font-weight:900;text-decoration:none}
+    .btn.primary{border-color:var(--forest);background:var(--forest);color:#fff}
+    .btn:hover,.btn:focus-visible{transform:translateY(-1px);outline:2px solid var(--sun);outline-offset:2px}
+    .booked{padding:18px;border:2px solid #4f8068;border-radius:18px;background:#e5f0e8;box-shadow:var(--shadow)}
+    .status{display:inline-flex;padding:6px 9px;border-radius:999px;background:#32704f;color:#fff;font-size:.7rem;font-weight:950;letter-spacing:.06em;text-transform:uppercase}
+    .booked h3{margin:14px 0 7px;font-family:Georgia,serif;font-size:1.45rem}
+    .booked p{margin:6px 0;font-size:.84rem;line-height:1.45}
+    .verdict{margin:14px 0 18px;padding:18px;border:2px solid #438262;border-radius:19px;background:linear-gradient(145deg,#e6f2e9,#edf4ef);box-shadow:var(--shadow)}
+    .verdict-label{display:inline-flex;padding:6px 9px;border-radius:999px;background:var(--good);color:#fff;font-size:.7rem;font-weight:950;letter-spacing:.1em}
+    .verdict h3{margin:12px 0 5px;font:600 1.55rem Georgia,serif}
+    .verdict>p{margin:0 0 12px;font-size:.82rem;line-height:1.48}
+    .journeys{display:grid;gap:9px}
+    .journey{padding:12px;border:1px solid #b8d0c1;border-radius:12px;background:rgba(255,255,255,.56)}
+    .journey b{display:block;margin-bottom:4px;font-size:.77rem}
+    .journey span{font-size:.77rem;line-height:1.42}
+    .transport-caveat{margin:11px 0 0;padding:9px 10px;border-radius:10px;background:#fff2dd;color:#76501e;font-size:.72rem;line-height:1.43}
+    details{margin-top:19px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.36)}
+    summary{cursor:pointer;padding:14px 15px;font-weight:900;font-size:.82rem}
+    details .inside{padding:0 13px 14px}
+    .rest-list{display:grid;grid-template-columns:1fr;gap:8px;margin-top:16px}
+    .rest-item{padding:12px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.42);text-decoration:none}
+    .rest-item strong{display:block;font-size:.8rem}
+    .rest-item span{display:block;margin-top:3px;color:var(--muted);font-size:.7rem;line-height:1.38}
+    .source-foot{margin-top:17px;color:var(--muted);font-size:.69rem;line-height:1.5}
+    footer{padding:28px 16px 42px;border-top:1px solid var(--line);color:var(--muted);font-size:.74rem;text-align:center}
+    @media(min-width:660px){
+      .hero{padding:56px 32px 40px}
+      main{padding-inline:27px}
+      .route-strip{grid-template-columns:repeat(4,1fr)}
+      .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .quick-picks{grid-template-columns:repeat(2,1fr)}
+      .journeys{grid-template-columns:repeat(2,1fr)}
+      .rest-list{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(min-width:1000px){.cards{grid-template-columns:repeat(3,minmax(0,1fr))}.quick-picks{grid-template-columns:repeat(3,1fr)}}
+    @media(prefers-color-scheme:dark){
+      :root{--paper:#101a18;--paper-2:#172421;--card:#172421;--ink:#edf4f1;--muted:#acb9b5;--line:#344640;--forest:#79b39d;--shadow:0 12px 34px rgba(0,0,0,.25)}
+      nav{background:rgba(16,26,24,.94)}
+      .jump a{color:#dcebe5}.jump a:hover,.jump a:focus-visible,.jump a[aria-current="true"]{background:#283c37}
+      .route-day,.rest-item,.market-note{background:rgba(255,255,255,.035)}
+      .quick-wrap{background:#193b34}
+      .tier{background:#614b25;color:#f6db9c}.type{background:#244943;color:#bce3d9}.avail{background:#3a3a35;color:#ddd7ca}.avail.dated{background:#244d38;color:#ccebd9}
+      .top-ribbon{background:#24533b;color:#d7f2e2}
+      .btn.primary{background:#d8eee5;color:#163d35}
+      .booked{background:#1b3328;border-color:#4e856d}
+      .verdict{background:linear-gradient(145deg,#193429,#1d3029);border-color:#4e856d}
+      .journey{background:rgba(255,255,255,.04);border-color:#3f6652}
+      .transport-caveat{background:#47351f;color:#f3d49f}
+      details{background:rgba(255,255,255,.025)}
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Accommodation field guide</p>
+      <h1>Camino del Norte<br>Donostia → Bilbao</h1>
+      <div class="hero-meta"><span>6–15 September 2026</span><span>2 adults · 1 private double</span><span>Private bathroom preferred</span><span>Researched 20 August 2026</span></div>
+      <div class="caveat" role="note"><strong>Exact-price recheck completed 20 August.</strong> “Exact quote” records a tax-inclusive public result for your dates, not a held room. “Rechecked · unchecked” means the property is real and the button opens with your exact dates, but its booking form did not expose a reliable target-date EUR quote. Generic “from” prices remain clearly marked and are never presented as quotes for your stay.</div>
+    </div>
+  </header>
+  <nav aria-label="Jump to night">
+    <div class="jump">
+      <a href="#donostia">6 Sep · Donostia</a>
+      <a href="#zarautz">7 Sep · Zarautz</a>
+      <a href="#deba">8–10 Sep · Deba</a>
+      <a href="#markina">10 Sep · Markina</a>
+      <a href="#ziortza">11 Sep · Ziortza</a>
+      <a href="#bilbao">12–15 Sep · Bilbao</a>
+    </div>
+  </nav>
+  <main>
+    <div class="legend" aria-label="Price tier legend"><span>€ · up to €80/night</span><span>€€ · €80–130/night</span><span>€€€ · €130–200/night</span><span>€€€+ · above €200</span></div>
+    <div class="route-strip" aria-label="Locked itinerary">
+      <div class="route-day"><b>Sun 6 Sep</b><span>Arrive Donostia</span></div>
+      <div class="route-day"><b>Mon 7 Sep · 21.6 km</b><span>Walk to Zarautz</span></div>
+      <div class="route-day"><b>Tue 8 Sep · 23.0 km</b><span>Walk to Deba</span></div>
+      <div class="route-day"><b>Wed 9 Sep</b><span>Rest in Deba</span></div>
+      <div class="route-day"><b>Thu 10 Sep · 23.7 km</b><span>Walk to Markina</span></div>
+      <div class="route-day"><b>Fri 11 Sep · 7.1 km</b><span>Walk to Ziortza</span></div>
+      <div class="route-day"><b>Sat 12 Sep · 24.8 km</b><span>To Andra Mari</span></div>
+      <div class="route-day"><b>Sun 13 Sep · 25.9 km</b><span>Walk to Bilbao</span></div>
+      <div class="route-day"><b>Mon 14 Sep</b><span>Bilbao extra day</span></div>
+      <div class="route-day"><b>Tue 15 Sep</b><span>Checkout · depart</span></div>
+    </div>
+    <div class="quick-wrap">
+      <h2>Our first-click shortlist</h2>
+      <div class="quick-picks" id="quick-picks"></div>
+    </div>
+
+    <section id="donostia">
+      <div class="section-head"><div><h2>Donostia / San Sebastián</h2><p>Check-in Sun 6 Sep · checkout Mon 7 Sep</p></div><span class="night-chip">1 night</span></div>
+      <p class="market-note">This is the expensive opener. The recheck found tax-inclusive totals of €156, €189, €190 and €239 for 6–7 Sep. The central budget pension still hides its target-date EUR price, so click early.</p>
+      <div class="cards" data-town="donostia"></div>
+    </section>
+
+    <section id="zarautz">
+      <div class="section-head"><div><h2>Zarautz</h2><p>Check-in Mon 7 Sep · checkout Tue 8 Sep</p></div><span class="night-chip">1 night</span></div>
+      <p class="market-note">Nekatur exposes useful generic starting rates but not target-date inventory. Two rural favourites are included; the other cards are central.</p>
+      <div class="cards" data-town="zarautz"></div>
+    </section>
+
+    <section id="deba">
+      <div class="section-head"><div><h2>Deba</h2><p>Check-in Tue 8 Sep · checkout Thu 10 Sep</p></div><span class="night-chip">2 nights</span></div>
+      <p class="market-note">Deba is the tightest small-town stop. Only two central private-room properties surfaced, backed up by two rural Nekatur stays within about 2 km.</p>
+      <div class="cards" data-town="deba"></div>
+      <div class="rest-list" aria-label="Deba rest day ideas">
+        <a class="rest-item" href="https://geoparkea.eus/en/guided-tours/flysch-tour" target="_blank" rel="noreferrer"><strong>Flysch guided tour ↗</strong><span>Official Geopark schedule; check the 9 Sep departure.</span></a>
+        <a class="rest-item" href="https://shop.sansebastianturismoa.eus/en/product/boat-tour-to-discover-the-flysch-of-zumaia-1530/" target="_blank" rel="noreferrer"><strong>Flysch boat from Zumaia ↗</strong><span>Book ahead; the departure is in Zumaia, not Deba.</span></a>
+        <a class="rest-item" href="https://tourism.euskadi.eus/en/beaches-reservoirs-rivers/santiago-beach-deba/webtur00-content/en/" target="_blank" rel="noreferrer"><strong>Santiago / Lapari beach ↗</strong><span>The low-logistics recovery-day choice.</span></a>
+        <a class="rest-item" href="https://www.deba.eus/en/tourism/gastronomy" target="_blank" rel="noreferrer"><strong>Deba pintxos ↗</strong><span>Official local gastronomy directory.</span></a>
+      </div>
+    </section>
+
+    <section id="markina">
+      <div class="section-head"><div><h2>Markina-Xemein</h2><p>Check-in Thu 10 Sep · checkout Fri 11 Sep</p></div><span class="night-chip">1 night</span></div>
+      <p class="market-note">Inventory is thin and no exact-date EUR price was exposed. Txomin Ostatua is now the first-click option because its individual private en-suite doubles are clearer; Intxauspe must confirm that it will rent one en-suite room rather than the whole house.</p>
+      <div class="cards" data-town="markina"></div>
+    </section>
+
+    <section id="ziortza">
+      <div class="section-head"><div><h2>Ziortza-Bolibar</h2><p>Fri 11 Sep · already arranged</p></div><span class="night-chip">Booked</span></div>
+      <article class="booked">
+        <span class="status">✓ Booked</span>
+        <h3>Hospedería del Monasterio de Zenarruza</h3>
+        <p>Goierria Ziortza 11, 48278 Ziortza-Bolibar · directly on the Camino.</p>
+        <p><strong>Phone:</strong> <a href="tel:+34946164179">+34 946 164 179</a></p>
+        <div class="links">
+          <a class="btn primary" href="https://monasteriozenarruza.net/la-hospederia/" target="_blank" rel="noreferrer">Official</a>
+          <a class="btn" href="https://www.nekatur.net/monasterio-de-ziortza-zenarruza" target="_blank" rel="noreferrer">Nekatur</a>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Monasterio+de+Zenarruza+Ziortza-Bolibar" target="_blank" rel="noreferrer">Maps</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="bilbao">
+      <div class="section-head"><div><h2>Bilbao</h2><p>Check-in Sat 12 Sep · checkout Tue 15 Sep</p></div><span class="night-chip">3 nights</span></div>
+      <div class="verdict">
+        <span class="verdict-label">Worth it · conditional</span>
+        <h3>Yes from Andra Mari stop; no from Eskerika</h3>
+        <p>The direct A3631 meets the ~75-minute rule only if Saturday's locked finish is effectively <strong>Andra Mari stop 3416</strong>. If you actually stop around Eskerika, the extra 20–35 minute walk makes each transfer roughly 85–110 minutes, so it fails the rule.</p>
+        <div class="journeys">
+          <div class="journey"><b>Sat 12 Sep · outbound</b><span><strong>20:00</strong> Andra Mari, Morga (stop 3416) → Bailén 1, Bilbao. Direct A3631, published route time about <strong>60 min</strong>; allow 5–15 min to a central hotel.</span></div>
+          <div class="journey"><b>Sun 13 Sep · return</b><span><strong>07:00</strong> Bailén 1, Bilbao → Andra Mari, Morga. Direct A3631, about <strong>60 min</strong>; scheduled to put you back at the stage point around 08:00.</span></div>
+        </div>
+        <p class="transport-caveat"><strong>Low-frequency warning:</strong> the through service has only three weekend trips in each direction. Missing Saturday’s 20:00 bus breaks the clean plan. Timetable researched 20 Aug 2026 from the current summer schedule; its accessible notice does not state an end date, so recheck 24–48 hours before travel.</p>
+        <div class="links">
+          <a class="btn primary" href="https://www.morga.eus/es-ES/Servicios/Transporte/Paginas/BilbaoGaldakaoLarrabetzu.aspx" target="_blank" rel="noreferrer">Morga timetable</a>
+          <a class="btn" href="https://www.bizkaia.eus/es/web/bizkaibus/-/horarios-de-verano-2026.-a-partir-del-1-de-junio" target="_blank" rel="noreferrer">Summer 2026 notice</a>
+          <a class="btn" href="https://apli.bizkaia.net/APPS/DANOK/TQ/DATOS_PARADAS/ITINERARIOS/A3631V.PDF" target="_blank" rel="noreferrer">A3631 to Bilbao</a>
+          <a class="btn" href="https://apli.bizkaia.net/APPS/DANOK/TQ/DATOS_PARADAS/ITINERARIOS/A3631I.PDF" target="_blank" rel="noreferrer">A3631 return</a>
+          <a class="btn" href="https://moovitapp.com/index/en/public_transit-time-a3631-Bilbao-1505-1335626-2997400-5956361-0" target="_blank" rel="noreferrer">Current stop times</a>
+          <a class="btn" href="https://www.google.com/maps/dir/43.28886,-2.7411/43.30004,-2.75235/data=!4m2!4m1!3e2" target="_blank" rel="noreferrer">Eskerika walk</a>
+          <a class="btn" href="https://www.euskotren.eus/sites/default/files/horarios/E4_CARTEL_50x70_Verano%202026_1.pdf" target="_blank" rel="noreferrer">Gernika E4 alternative</a>
+        </div>
+        <p class="source-foot">Why not Gernika? The official E4 is frequent and takes roughly 52 minutes from Gernika to central Bilbao, but first reaching Gernika from Andra Mari adds a rural bus/transfer. That pushes the practical trip beyond the direct A3631 and usually beyond the ~75-minute target.</p>
+      </div>
+      <p class="market-note">All five Bilbao properties are central and offer private en-suite doubles, but public sources did not expose exact 12–15 Sep prices. Saturday inventory is the pressure point; every Booking and Airbnb button below carries the corrected three-night dates.</p>
+      <div class="cards" data-town="bilbao"></div>
+      <details>
+        <summary>If you decide to sleep on-route instead: 4 fallbacks</summary>
+        <div class="inside">
+          <p class="market-note">Morga/Muxika preserves Sunday at 25.9 km. Gernika offers more beds but makes Sunday about 31 km unless you transit-hop back to the trail.</p>
+          <div class="cards" id="fallback-grid"></div>
+        </div>
+      </details>
+    </section>
+
+    <p class="source-foot">Research and exact-price recheck cut-off: 20 August 2026. Prices are shown only where a retrievable source exposed an amount; each amount says whether it applies to your dates. Property existence, room/bathroom details and distances were cross-checked against official pages, Nekatur, Booking, Gronze or current mapping listings. Nothing on this page is a reservation.</p>
+  </main>
+  <footer>Camino del Norte · Donostia → Bilbao · 6–15 September 2026</footer>
+
+  <script>
+    var AIR = {
+      donostia:"https://www.airbnb.com/s/San-Sebastian--Spain/homes?adults=2&checkin=2026-09-06&checkout=2026-09-07",
+      zarautz:"https://www.airbnb.com/s/Zarautz--Spain/homes?adults=2&checkin=2026-09-07&checkout=2026-09-08",
+      deba:"https://www.airbnb.com/s/Deba--Spain/homes?adults=2&checkin=2026-09-08&checkout=2026-09-10",
+      markina:"https://www.airbnb.com/s/Markina-Xemein--Spain/homes?adults=2&checkin=2026-09-10&checkout=2026-09-11",
+      bilbao:"https://www.airbnb.com/s/Bilbao--Spain/homes?adults=2&checkin=2026-09-12&checkout=2026-09-15",
+      morga:"https://www.airbnb.com/s/Morga--Spain/homes?adults=2&checkin=2026-09-12&checkout=2026-09-13",
+      gernika:"https://www.airbnb.com/s/Gernika-Lumo--Spain/homes?adults=2&checkin=2026-09-12&checkout=2026-09-13"
+    };
+    var DATA = {
+      donostia:[
+        {name:"Pensión Santa Clara",type:"Pension",tier:"€",price:"Exact EUR price unavailable",priceDetail:"Rechecked for 6–7 Sep, 2 adults; the date-loaded booking form exposed no reliable EUR quote. Seen 20 Aug 2026.",priceSource:"https://www.booking.com/hotel/es/pensia3n-santa-clara.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",availability:"Rechecked · unchecked",distance:"Old Town · central",room:"Private bathrooms stated; confirm the double-room category.",why:"The central budget lead; worth clicking before accepting a €150+ hotel.",booking:"https://www.booking.com/hotel/es/pensia3n-santa-clara.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.donostia,official:"https://www.pensionsantaclara.com/",maps:"https://www.google.com/maps/search/?api=1&query=Pension+Santa+Clara+San+Sebastian"},
+        {name:"Hotel Anoeta",type:"Hotel",tier:"€€€",top:true,price:"€156 total · €156/night",priceDetail:"Exact dated total including taxes for 6–7 Sep, 2 adults; seen 20 Aug 2026. Room not held.",priceSource:"https://www.expedia.es/San-Sebastian-Hoteles-Hotel-Anoeta.h10610424.Informacion-Hotel",availability:"Exact quote · 20 Aug",distance:"Anoeta / Amara · about 2 km to Old Town",room:"Private en-suite rooms; exact quoted category was not exposed in the public result.",why:"Best balance of a verified dated total, a proper hotel room and an easy bus/walk into town.",booking:"https://www.booking.com/hotel/es/anoeta.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.donostia,official:"https://hotelanoeta.com/index_en.html",maps:"https://www.google.com/maps/search/?api=1&query=Hotel+Anoeta+San+Sebastian"},
+        {name:"Zenit San Sebastián",type:"Hotel",tier:"€€€",price:"€189 total · €189/night",priceDetail:"Exact dated total including taxes for 6–7 Sep, 2 adults; seen 20 Aug 2026. Breakfast and cancellation depend on the selected rate.",priceSource:"https://es.hoteles.com/ho475871/hotel-zenit-san-sebastian-san-sebastian-espana/?chkin=2026-09-06&chkout=2026-09-07&rm1=a2&sort=RECOMMENDED",availability:"Exact quote · 20 Aug",distance:"Morlans / Amara · about 1.7 km to waterfront",room:"Private en-suite hotel rooms; exact quoted category was not exposed in the public result.",why:"Full-service comfort within the target premium band.",booking:"https://www.booking.com/hotel/es/zenit-san-sebastian.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.donostia,official:"https://sansebastian.zenithoteles.com/en/",maps:"https://www.google.com/maps/search/?api=1&query=Hotel+Zenit+San+Sebastian"},
+        {name:"Eurostars Amara",type:"Hotel",tier:"€€€",price:"€190 total · €190/night",priceDetail:"Exact dated total including taxes for 6–7 Sep, 2 adults; seen 20 Aug 2026. Breakfast and cancellation depend on the selected rate.",priceSource:"https://es.hoteles.com/ho105479/hotel-silken-amara-plaza-san-sebastian-espana/?chkin=2026-09-06&chkout=2026-09-07&rm1=a2&sort=RECOMMENDED",availability:"Exact quote · 20 Aug",distance:"Amara · about 1.7 km to La Concha",room:"Private en-suite hotel rooms; exact quoted category was not exposed in the public result.",why:"Quiet, transit-friendly fallback with a straightforward walk into the centre.",booking:"https://www.booking.com/hotel/es/amaraplaza.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.donostia,official:"https://www.eurostarshotels.com/eurostars-amara.html",maps:"https://www.google.com/maps/search/?api=1&query=Eurostars+Amara+San+Sebastian"},
+        {name:"Barceló Costa Vasca",type:"Hotel",tier:"€€€+",price:"€239 total · €239/night",priceDetail:"Exact dated total including taxes for 6–7 Sep, 2 adults; seen 20 Aug 2026. Breakfast, cancellation and €22/day parking are separate or rate-dependent.",priceSource:"https://es.hoteles.com/ho232642/barcelo-costa-vasca-san-sebastian-espana/?chkin=2026-09-06&chkout=2026-09-07&rm1=a2&sort=RECOMMENDED",availability:"Exact quote · 20 Aug",distance:"Antiguo · about 550 m to Ondarreta, 2.5 km to Old Town",room:"Private en-suite hotel rooms; exact quoted category was not exposed in the public result.",why:"The stretch option if you want a polished first night near Ondarreta.",booking:"https://www.booking.com/hotel/es/costavaca.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.donostia,official:"https://www.barcelo.com/en-us/barcelo-costa-vasca/",maps:"https://www.google.com/maps/search/?api=1&query=Barcelo+Costa+Vasca+San+Sebastian"}
+      ],
+      zarautz:[
+        {name:"Gaikoetxe",type:"Nekatur agroturismo",tier:"€",top:true,price:"From €60 / night*",priceDetail:"Generic Nekatur starting rate, not dated to 7–8 Sep; seen 20 Aug 2026.",priceSource:"https://www.nekatur.net/en/gaikoetxe",availability:"Rechecked · unchecked",distance:"Rural hillside · about 2 km from town",room:"Six doubles, each with private bathroom.",why:"Our rural-value pick: a genuine farmhouse, en-suite room and manageable transfer.",booking:"https://www.booking.com/searchresults.html?ss=Gaikoetxe%2C+Zarautz&checkin=2026-09-07&checkout=2026-09-08&group_adults=2&no_rooms=1&group_children=0",nekatur:"https://www.nekatur.net/en/gaikoetxe",airbnb:AIR.zarautz,official:"https://tourism.euskadi.eus/en/accomodation/gaikoetxe-turism-in-a-farm/webtur00-content/en/",maps:"https://www.google.com/maps/search/?api=1&query=Gaikoetxe+Zarautz"},
+        {name:"Itulazabal",type:"Nekatur agroturismo",tier:"€",price:"From €55 / night*",priceDetail:"Generic Nekatur starting rate, not dated to 7–8 Sep; seen 20 Aug 2026.",priceSource:"https://www.nekatur.net/en/itulazabal",availability:"Rechecked · unchecked",distance:"Rural · about 2 km from centre / beach",room:"Six double rooms, each listed with bathroom.",why:"The lowest Nekatur starting rate in the Zarautz sweep.",booking:"https://www.booking.com/searchresults.html?ss=Itulazabal%2C+Zarautz&checkin=2026-09-07&checkout=2026-09-08&group_adults=2&no_rooms=1&group_children=0",nekatur:"https://www.nekatur.net/en/itulazabal",airbnb:AIR.zarautz,maps:"https://www.google.com/maps/search/?api=1&query=Itulazabal+Zarautz"},
+        {name:"Hotel Zerupe",type:"Hotel",tier:"€€",price:"From €83 / night*",priceDetail:"Generic network starting rate, not dated to 7–8 Sep; seen 20 Aug 2026.",priceSource:"https://zerupe.hotel-guipuzcoa.com/en/",availability:"Rechecked · unchecked",distance:"Central · about 8 min walk to beach",room:"Private en-suite double; confirm category.",why:"Best central fallback if the agroturismos do not answer.",booking:"https://www.booking.com/hotel/es/zerupe.html?checkin=2026-09-07&checkout=2026-09-08&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.zarautz,official:"https://hotelzerupe.com/",maps:"https://www.google.com/maps/search/?api=1&query=Hotel+Zerupe+Zarautz"},
+        {name:"Hotel Alameda",type:"Hotel",tier:"€€",price:"Exact EUR price unavailable",priceDetail:"Date-loaded Booking link for 7–8 Sep; no target-date EUR quote retrieved.",priceSource:"https://www.booking.com/hotel/es/alameda-zarautz.html",availability:"Rechecked · unchecked",distance:"Central · roughly 300 m from centre",room:"All rooms have private bathrooms.",why:"Traditional central hotel between the station, town and beach.",booking:"https://www.booking.com/hotel/es/alameda-zarautz.html?checkin=2026-09-07&checkout=2026-09-08&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.zarautz,maps:"https://www.google.com/maps/search/?api=1&query=Hotel+Alameda+Zarautz"},
+        {name:"Hotel Ur Bare",type:"Boutique hotel",tier:"€€€",price:"Exact EUR price unavailable",priceDetail:"Date-loaded Booking link for 7–8 Sep; nearby-date prices were not used.",priceSource:"https://www.booking.com/hotel/es/ur-bare.html",availability:"Rechecked · unchecked",distance:"Beachfront · central Zarautz",room:"Private en-suite doubles; confirm chosen room.",why:"The premium reset: beachfront setting, breakfast and pool.",booking:"https://www.booking.com/hotel/es/ur-bare.html?checkin=2026-09-07&checkout=2026-09-08&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.zarautz,official:"https://urbarehotel.com/en",maps:"https://www.google.com/maps/search/?api=1&query=Hotel+Ur+Bare+Zarautz"}
+      ],
+      deba:[
+        {name:"Pensión Zumardi",type:"Pension",tier:"€",price:"From €68 / night*",priceDetail:"Generic non-dated starting rate, not a quote for 8–10 Sep; seen 20 Aug 2026.",priceSource:"https://www.basque-country-hotels.com/en/deba-hotels-31284/near-city-center-176468/",availability:"Rechecked · unchecked",distance:"Central · 1 min to beach, about 200 m to centre",room:"Private bathroom reported; confirm the double category.",why:"The simplest rest-day base with no rural transfers.",booking:"https://www.booking.com/hotel/es/pension-zumardi.html?checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.deba,maps:"https://www.google.com/maps/search/?api=1&query=Pension+Zumardi+Deba"},
+        {name:"Perlakua Saka",type:"Nekatur agroturismo",tier:"€",top:true,price:"From €70 / night*",priceDetail:"Generic Nekatur rate, not dated to 8–10 Sep; seen 20 Aug 2026.",priceSource:"https://www.nekatur.net/perlakua",availability:"Rechecked · unchecked",distance:"Arriola · 1 km to Camino, about 2 km to beach",room:"Six double rooms, each with private bathroom.",why:"Best overall Deba fit: en-suite rural character without going too far out.",booking:"https://www.booking.com/searchresults.html?ss=Perlakua+Saka%2C+Deba&checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",nekatur:"https://www.nekatur.net/perlakua",airbnb:AIR.deba,maps:"https://www.google.com/maps/search/?api=1&query=Perlakua+Saka+Deba"},
+        {name:"Txerturi Goikoa",type:"Nekatur agroturismo",tier:"€€",price:"From €80 / night*",priceDetail:"Generic Nekatur rate, not dated to 8–10 Sep; seen 20 Aug 2026.",priceSource:"https://www.nekatur.net/txerturigoikoa",availability:"Rechecked · unchecked",distance:"Itxaspe · 1 km to Camino, about 2 km to beach",room:"Five doubles, each with private shower bathroom.",why:"The strongest mid-tier countryside alternative inside the Geopark.",booking:"https://www.booking.com/searchresults.html?ss=Txerturi+Goikoa%2C+Deba&checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",nekatur:"https://www.nekatur.net/txerturigoikoa",airbnb:AIR.deba,official:"https://txerturi.com/",maps:"https://www.google.com/maps/search/?api=1&query=Txerturi+Goikoa+Deba"},
+        {name:"Hiru Uhinak Hotel",type:"Boutique hotel",tier:"€€€+",price:"Exact EUR price unavailable",priceDetail:"Rechecked for 8–10 Sep, 2 adults; no reliable target-date EUR quote was exposed. Nearby-date prices were excluded. Seen 20 Aug 2026.",priceSource:"https://www.booking.com/hotel/es/hiru-uhinak.html?checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",availability:"Rechecked · unchecked",distance:"Central · about 2 min to Santiago Beach",room:"Private en-suite hotel rooms; confirm category.",why:"Premium central fallback with beach access and wellness facilities.",booking:"https://www.booking.com/hotel/es/hiru-uhinak.html?checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.deba,official:"https://www.hiruhinak-hotel.com/en/",maps:"https://www.google.com/maps/search/?api=1&query=Hiru+Uhinak+Hotel+Deba"}
+      ],
+      markina:[
+        {name:"Intxauspe Landetxea",type:"Casa rural",tier:"€",price:"Indicative €70 / room*",priceDetail:"Camino listing price, not dated to 10–11 Sep; exact price unavailable. Official tourism describes whole-house rental, so confirm room-only booking. Seen 20 Aug 2026.",priceSource:"https://tourism.euskadi.eus/en/accomodation/intxauspe-rural-house/webtur00-content/en/",availability:"Room basis must be confirmed",distance:"About 800 m from centre",room:"Five doubles: three en-suite and two with shared bathrooms. Official tourism describes whole-house rental.",why:"Characterful and close, but keep it only if they confirm an individual en-suite double.",booking:"https://www.booking.com/city/es/marquina-jemein.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.markina,official:"https://www.intxauspe.com/",maps:"https://www.google.com/maps/search/?api=1&query=Intxauspe+Landetxea+Markina-Xemein"},
+        {name:"Erdiko Kalea 9",type:"Entire apartment",tier:"€€",price:"Exact EUR price unavailable",priceDetail:"Rechecked for 10–11 Sep, 2 adults; the booking page exposed no reliable target-date EUR quote. Seen 20 Aug 2026.",priceSource:"https://www.booking.com/hotel/es/erdiko-kalea-9.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",availability:"Rechecked · unchecked",distance:"Central · about 300 m from town centre",room:"One-bedroom apartment; bathroom privacy was not independently exposed, so confirm before booking.",why:"Best truly central fallback if a whole apartment is fine for one night.",booking:"https://www.booking.com/hotel/es/erdiko-kalea-9.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",airbnb:"https://www.airbnb.com/rooms/1425979374229862473?check_in=2026-09-10&check_out=2026-09-11&adults=2",maps:"https://www.google.com/maps/search/?api=1&query=Erdiko+Kalea+9+Markina-Xemein"},
+        {name:"Pensión Txomin Ostatua",type:"Pension",tier:"€",top:true,price:"From €48 / double*",priceDetail:"Gronze indicative price, not dated to 10–11 Sep; the exact EUR quote remains unavailable after recheck. Seen 20 Aug 2026.",priceSource:"https://www.gronze.com/pais-vasco/vizcaya/etxebarria/pension-txomin-ostatua",availability:"Rechecked · unchecked",distance:"Etxebarria · about 2 km from Markina",room:"Double/twin rooms with private bathrooms; no breakfast reported.",why:"First click in Markina: the clearest individual en-suite setup and the lowest indicative rate.",booking:"https://www.booking.com/hotel/es/pension-txomin-ostatua.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.markina,official:"https://www.txominostatua.com/ING/index.html",maps:"https://www.google.com/maps/search/?api=1&query=Pension+Txomin+Ostatua+Etxebarria"},
+        {name:"Ikestei",type:"Nekatur agroturismo",tier:"€€",price:"From €80 / night*",priceDetail:"Official non-dated rate including breakfast and VAT; exact 10–11 Sep price and inventory were not exposed. Seen 20 Aug 2026.",priceSource:"https://www.ikestei.net/en/rural_house/",availability:"Rechecked · unchecked",distance:"Ziortza-Bolibar · about 2.5 km from Markina",room:"Four doubles with private bathrooms; breakfast included in the generic published rate.",why:"The taste pick: rural, en-suite and restaurant on site, with a short taxi transfer.",booking:"https://www.booking.com/city/es/ziortza-bolivar.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",nekatur:"https://www.nekatur.net/en/ikestei",airbnb:AIR.markina,official:"https://www.ikestei.net/en/rural_house/",maps:"https://www.google.com/maps/search/?api=1&query=Ikestei+Ziortza-Bolibar"}
+      ],
+      bilbao:[
+        {name:"Hotel Bilbao Plaza",type:"Hotel",tier:"€€",top:true,price:"Exact EUR price unavailable",priceDetail:"Date-loaded for the corrected 12–15 Sep stay; no public EUR quote retrieved.",priceSource:"https://www.hotelbilbaoplaza.com/en",availability:"Rechecked · unchecked",distance:"Nervión riverfront · 5 min to Guggenheim, under 10 min to Old Town",room:"Double/twin rooms with private bathrooms.",why:"Best balance for three nights and only a short walk from the Bailén bus arrival.",booking:"https://www.booking.com/hotel/es/bilbao-plaza.html?checkin=2026-09-12&checkout=2026-09-15&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.bilbao,official:"https://www.hotelbilbaoplaza.com/en",maps:"https://www.google.com/maps/search/?api=1&query=Hotel+Bilbao+Plaza"},
+        {name:"7 Kale Bed & Breakfast",type:"B&B",tier:"€€",price:"Exact EUR price unavailable",priceDetail:"Date-loaded for 12–15 Sep; no public EUR quote retrieved.",priceSource:"https://www.booking.com/hotel/es/pensia3n-ma-c-ndez-ii.html",availability:"Rechecked · unchecked",distance:"Casco Viejo · 2 min to cathedral, 3 min to Plaza Nueva",room:"All rooms have private bathrooms.",why:"Best Old Town value candidate and extremely practical for evenings.",booking:"https://www.booking.com/hotel/es/pensia3n-ma-c-ndez-ii.html?checkin=2026-09-12&checkout=2026-09-15&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.bilbao,official:"https://bnb7kale.hotelbilbao.net/en/",maps:"https://www.google.com/maps/search/?api=1&query=7+Kale+Bed+and+Breakfast+Bilbao"},
+        {name:"Poshtel Bilbao Premium",type:"Hostel private room",tier:"€",price:"Exact EUR price unavailable",priceDetail:"Date-loaded for 12–15 Sep; verify that the private en-suite double, not dorm inventory, is selected.",priceSource:"https://www.hostelworld.com/hostels/p/269660/poshtel-bilbao-premium-hostel/",availability:"Rechecked · unchecked",distance:"By Guggenheim · central",room:"Private double with double bed and private bathroom documented.",why:"The most promising lower-cost private en-suite near the finish area.",booking:"https://www.booking.com/hotel/es/poshtel-bilbao-premium-hostel.html?checkin=2026-09-12&checkout=2026-09-15&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.bilbao,official:"https://www.poshtelbilbao.com/",maps:"https://www.google.com/maps/search/?api=1&query=Poshtel+Bilbao+Premium+Hostel"},
+        {name:"Casual Gurea Bilbao",type:"Guesthouse",tier:"€€",price:"Generic from €119 / night*",priceDetail:"Official non-dated starting rate, not a quote for 12–15 Sep; seen 20 Aug 2026.",priceSource:"https://www.casualhoteles.com/en/casual-gurea-bilbao.html",availability:"Rechecked · unchecked",distance:"Old Town · beside Santiago Cathedral",room:"Double rooms for two with private bathroom.",why:"A reliable mid-tier Old Town fallback with no transport friction.",booking:"https://www.booking.com/hotel/es/hostal-gurea.html?checkin=2026-09-12&checkout=2026-09-15&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.bilbao,official:"https://www.casualhoteles.com/en/casual-gurea-bilbao.html",maps:"https://www.google.com/maps/search/?api=1&query=Casual+Gurea+Bilbao"},
+        {name:"Catalonia Gran Vía Bilbao",type:"4-star hotel",tier:"€€€",price:"Generic from €149 / night*",priceDetail:"Official non-dated starting rate, not a quote for 12–15 Sep; seen 20 Aug 2026.",priceSource:"https://www.cataloniahotels.com/en/hotel/catalonia-gran-via-bilbao",availability:"Rechecked · unchecked",distance:"Gran Vía · about 13–15 min to Guggenheim",room:"21 m² double rooms with fully equipped private bathroom.",why:"Premium three-night comfort with spa and rooftop pool.",booking:"https://www.booking.com/hotel/es/catalonia-gran-via-bilbao.html?checkin=2026-09-12&checkout=2026-09-15&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.bilbao,official:"https://www.cataloniahotels.com/en/hotel/catalonia-gran-via-bilbao",maps:"https://www.google.com/maps/search/?api=1&query=Catalonia+Gran+Via+Bilbao"}
+      ]
+    };
+    var FALLBACKS = [
+      {name:"Hotel Katxi",type:"Rural hotel",tier:"€€",top:true,price:"Exact EUR price unavailable",priceDetail:"Date-loaded for Sat 12→Sun 13 Sep; no dated rate exposed.",priceSource:"https://www.booking.com/hotel/es/katxi.html",availability:"Rechecked · unchecked",distance:"Andra Mari, Morga · Gronze places it 2.2 km off Camino",room:"Nine rooms with private full bathrooms.",why:"Best route-preserving fallback; Sunday remains 25.9 km.",booking:"https://www.booking.com/hotel/es/katxi.html?checkin=2026-09-12&checkout=2026-09-13&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.morga,official:"https://www.katxi.com/es/",maps:"https://www.google.com/maps/search/?api=1&query=Hotel+Katxi+Andra+Mari+Morga"},
+      {name:"Pagaigoikoa",type:"Nekatur rural house",tier:"€",price:"From €50 / night*",priceDetail:"Generic Nekatur starting rate, not dated to 12–13 Sep; seen 20 Aug 2026.",priceSource:"https://www.nekatur.net/pagaigoikoa",availability:"Rechecked · unchecked",distance:"Muxika · Camino listed 3 km away; arrange connection",room:"Six doubles, each with private shower bathroom.",why:"Best rural Nekatur fallback; intended to preserve the 25.9 km Sunday.",nekatur:"https://www.nekatur.net/pagaigoikoa",airbnb:AIR.morga,official:"https://www.pagaigoikoa.com/",maps:"https://www.google.com/maps/search/?api=1&query=Pagaigoikoa+Muxika"},
+      {name:"Hotel Boliña",type:"Hotel",tier:"€",price:"Exact EUR price unavailable",priceDetail:"Date-loaded for Sat 12→Sun 13 Sep; no dated rate exposed.",priceSource:"https://www.booking.com/hotel/es/bolia-a.es.html",availability:"Rechecked · unchecked",distance:"Central Gernika · near Camino and transport",room:"Sixteen rooms, all advertised with private bathrooms.",why:"More inventory and services, but Sunday becomes about 31 km unless you transit-hop back.",booking:"https://www.booking.com/hotel/es/bolia-a.es.html?checkin=2026-09-12&checkout=2026-09-13&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.gernika,official:"https://www.hotelbolina.com/",maps:"https://www.google.com/maps/search/?api=1&query=Hotel+Bolina+Gernika-Lumo"},
+      {name:"Pensión Akelarre",type:"Pension",tier:"€",price:"Exact EUR price unavailable",priceDetail:"Date-loaded for Sat 12→Sun 13 Sep; no dated rate exposed.",priceSource:"https://www.booking.com/hotel/es/akelarre-ostatua.html",availability:"Rechecked · unchecked",distance:"Central Gernika · about 70 m to bus/train",room:"All rooms listed with bathroom.",why:"The economical-looking Gernika option; same ~31 km Sunday trade-off.",booking:"https://www.booking.com/hotel/es/akelarre-ostatua.html?checkin=2026-09-12&checkout=2026-09-13&group_adults=2&no_rooms=1&group_children=0",airbnb:AIR.gernika,official:"https://www.hotelakelarre.com/",maps:"https://www.google.com/maps/search/?api=1&query=Pension+Akelarre+Gernika-Lumo"}
+    ];
+    function esc(v){return String(v==null?"":v).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
+    function button(label,url,primary){return url?'<a class="btn'+(primary?' primary':'')+'" href="'+esc(url)+'" target="_blank" rel="noreferrer">'+esc(label)+'</a>':""}
+    function card(o){
+      var dated=o.availability.indexOf("Exact quote")===0;
+      var links=button("Booking",o.booking,true)+button("Nekatur",o.nekatur,!o.booking)+button("Airbnb",o.airbnb,false)+button("Official",o.official,false)+button("Maps",o.maps,false);
+      return '<article class="card'+(o.top?' top':'')+'">'+
+        (o.top?'<span class="top-ribbon">Top pick</span>':'')+
+        '<div class="badges"><span class="badge tier">'+esc(o.tier)+'</span><span class="badge type">'+esc(o.type)+'</span><span class="badge avail'+(dated?' dated':'')+'">'+esc(o.availability)+'</span></div>'+
+        '<h3>'+esc(o.name)+'</h3>'+
+        '<p class="price">'+esc(o.price)+'<small>'+esc(o.priceDetail)+' <a href="'+esc(o.priceSource)+'" target="_blank" rel="noreferrer">source ↗</a></small></p>'+
+        '<div class="facts"><div class="fact"><i>⌖</i><span>'+esc(o.distance)+'</span></div><div class="fact"><i>◫</i><span>'+esc(o.room)+'</span></div></div>'+
+        '<p class="why">'+esc(o.why)+'</p><div class="links">'+links+'</div></article>';
+    }
+    Object.keys(DATA).forEach(function(key){
+      var node=document.querySelector('[data-town="'+key+'"]');
+      if(node)node.innerHTML=DATA[key].map(card).join("");
+    });
+    document.getElementById("fallback-grid").innerHTML=FALLBACKS.map(card).join("");
+    var quick=[
+      ["Donostia","Hotel Anoeta · €€€"],["Zarautz","Gaikoetxe · €"],["Deba","Perlakua Saka · €"],
+      ["Markina","Txomin Ostatua · €"],["Ziortza","Zenarruza · booked"],["Bilbao","Hotel Bilbao Plaza · €€"]
+    ];
+    document.getElementById("quick-picks").innerHTML=quick.map(function(q){return '<div class="quick-pick"><strong>'+esc(q[0])+'</strong><span>'+esc(q[1])+'</span></div>'}).join("");
+    var navLinks=[].slice.call(document.querySelectorAll(".jump a"));
+    var observer=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){navLinks.forEach(function(a){a.removeAttribute("aria-current")});var a=document.querySelector('.jump a[href="#'+e.target.id+'"]');if(a){a.setAttribute("aria-current","true");a.scrollIntoView({block:"nearest",inline:"center"})}}})},{rootMargin:"-20% 0px -70% 0px"});
+    document.querySelectorAll("main section").forEach(function(s){observer.observe(s)});
+  </script>
+</body>
+</html>

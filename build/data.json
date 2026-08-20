@@ -1,0 +1,2126 @@
+{
+ "a": {
+  "headerHTML": "\n<h1>Camino del Norte — Donostia → Bilbao, Sep 2026</h1>\n<p class=\"sub\">2 adults · private double · 6–16 Sep 2026</p>\n<p class=\"stamp\">researched on 20 Aug 2026</p>\n",
+  "bannerHTML": "\n<p><b>Read this first.</b> We are ~2.5 weeks out, so prices and availability move fast — small Basque pensiones and agroturismos most of all. Every figure here is <b>indicative</b>: tap through to verify. Each card links out with <b>your dates and 2 adults prefilled</b>, so what you land on is the real price for this stay.</p>\n<p><b>Booking.com blocked automated price checks</b> (robots.txt, every attempt), so most prices below come from official property sites, Nekatur, Expedia or hoteles.com — and a fair number are marked <i>unchecked</i>, meaning we could not verify them at all.</p>\n",
+  "footerHTML": "\n<p><b>Data discipline:</b> no invented figures. Every price on this page shows the dates it applies to, where it came from and when we saw it. <b>“Unchecked” means we could not verify it — tap the link.</b> “Availability unchecked” means no live confirmation for your dates, not that it is free.</p>\n<p>Researched on <b>20 Aug 2026</b> · 2 adults · 1 room · private double, en-suite preferred · all links carry the dates and 2 adults.</p>\n<p>Route and stages are locked; this page covers sleeping only.</p>\n",
+  "sections": [
+   {
+    "id": "overview",
+    "kicker": "The trip — locked",
+    "title": "Overview",
+    "meta": "6 walking days <span class=\"dot\">·</span> 126.1 km on foot <span class=\"dot\">·</span> 10 nights",
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<table class=\"itin\">\n<tr><td class=\"d\">Sun 6</td><td><a href=\"#ss\">Arrive Donostia / San Sebastián — sleep in the city</a></td><td class=\"km\">—</td></tr>\n<tr><td class=\"d\">Mon 7</td><td><a href=\"#zarautz\">Walk to Zarautz</a></td><td class=\"km\">21.6 km</td></tr>\n<tr><td class=\"d\">Tue 8</td><td><a href=\"#deba\">Walk to Deba</a></td><td class=\"km\">23.0 km</td></tr>\n<tr><td class=\"d\">Wed 9</td><td><a href=\"#deba\">Rest day in Deba (same property, 2nd night)</a></td><td class=\"km\">rest</td></tr>\n<tr><td class=\"d\">Thu 10</td><td><a href=\"#markina\">Walk to Markina-Xemein</a></td><td class=\"km\">23.7 km</td></tr>\n<tr><td class=\"d\">Fri 11</td><td><a href=\"#ziortza\">Walk to Ziortza-Bolibar — Monasterio de Zenarruza</a> <span class=\"tag ok\">BOOKED ✓</span></td><td class=\"km\">7.1 km</td></tr>\n<tr><td class=\"d\">Sat 12</td><td><a href=\"#sat12\">Walk to the stage end near Andra Mari / Eskerika — sleeping spot is the open question</a> <span class=\"tag q\">OPEN</span></td><td class=\"km\">24.8 km</td></tr>\n<tr><td class=\"d\">Sun 13</td><td><a href=\"#bilbao\">Walk to Bilbao</a></td><td class=\"km\">25.9 km</td></tr>\n<tr><td class=\"d\">Mon 14</td><td><a href=\"#bilbao\">Bilbao city day</a></td><td class=\"km\">—</td></tr>\n<tr><td class=\"d\">Tue 15</td><td><a href=\"#bilbao\">Bilbao city day</a></td><td class=\"km\">—</td></tr>\n<tr><td class=\"d\">Wed 16</td><td><a href=\"#bilbao\">Checkout / depart</a></td><td class=\"km\">—</td></tr>\n</table>\n<p class=\"tiny\" style=\"margin-top:8px\">Route, stages and dates are fixed. This page only answers <i>where to sleep</i>.</p>"
+     }
+    ]
+   },
+   {
+    "id": "ss",
+    "kicker": "Sun 6 Sep — night 1",
+    "title": "San Sebastián / Donostia",
+    "meta": "arrival day, no walking <span class=\"dot\">·</span> 1 night (6→7 Sep)",
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<div class=\"market\">\n<p><span class=\"lbl\">Market note</span> Expensive and thin, but not sold out: for Sun 6 Sep→Mon 7 Sep 2026 a hoteles.com search of San Sebastián + surroundings returned NO property under €150 for these exact dates (cheapest confirmed in-city price = The Social Hub €156; central pensiones with en-suite run €207–€245; Old Town boutique reaches €503).</p>\n<details><summary>Full market note</summary><p>The <span class=\"nb\">€€</span> 80–130 band is effectively empty inside the city — genuine sub-€80 en-suite doubles exist only at the rural Nekatur agroturismos on the city&#x27;s western edge, one of which (Maddiola, Igeldo) sits directly on the Camino del Norte climb out of Donostia.</p></details>\n<p class=\"flag\"><b>Flag:</b> the <span class=\"nb\">€€</span> band (80–130) is effectively <b>empty inside the city</b> for this night — it is sub-€80 rural agroturismos on the western edge, or €150+ in town. Nothing in between.</p>\n</div>"
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:ss:agroturismo-maddiola",
+       "name": "Agroturismo Maddiola",
+       "href": "https://www.agroturismomaddiola.com/en/rural-home/",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "agroturismo"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/hotel/es/agroturismo-maddiola.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.nekatur.net/maddiola",
+         "label": "Nekatur"
+        },
+        {
+         "primary": false,
+         "href": "https://www.agroturismomaddiola.com/en/rural-home/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Agroturismo+Maddiola+Igeldo+San+Sebastian",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€56.10/night</b> · for <span class=\"nb\">2026-09-06→07</span> · <a href=\"https://www.nekatur.net/casas-rurales-donostia-san-sebastian?fechaEntrada=06-09-2026&amp;fechaSalida=07-09-2026&amp;personas=2\" target=\"_blank\" rel=\"noopener noreferrer\">nekatur.net</a> · seen 20 Aug 2026</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Aita Orkolaga 161, Igeldo — 5–6.5 km W of the Parte Vieja, up on Monte Igeldo. Not walkable to Old Town for dinner (bus 16 from Alderdi Eder, or taxi ~15 min), BUT it sits directly on the Camino del Norte&#x27;s 2 km climb out of the city toward Orio/Zarautz, so it saves the whole urban exit next morning.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 6 double rooms, each with own en-suite bathroom and terrace; sea/mountain views, spa zone (sauna, hammam, jacuzzi). €56.10 is the published from-rate per double shown on the Nekatur listing when loaded with these dates; exact rate for the night not confirmed — reconfirm by phone (+34 652 703 128).</p>\n<p class=\"why\">The one true budget en-suite for these dates and it is literally on the route out of town — listed as Camino del Norte accommodation by both Gronze and WisePilgrim.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:ss:kanpoeder-adults-only",
+       "name": "Kanpoeder — Adults Only",
+       "href": "https://kanpoeder.eu",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "agroturismo"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=San+Sebastian%2C+Spain&checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.nekatur.net/kanpoeder",
+         "label": "Nekatur"
+        },
+        {
+         "primary": false,
+         "href": "https://kanpoeder.eu",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Agroturismo+Kanpoeder+Ibaeta+San+Sebastian",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€71.20/night</b> · for <span class=\"nb\">2026-09-06→07</span> · <a href=\"https://www.nekatur.net/casas-rurales-donostia-san-sebastian?fechaEntrada=06-09-2026&amp;fechaSalida=07-09-2026&amp;personas=2\" target=\"_blank\" rel=\"noopener noreferrer\">nekatur.net</a> · seen 20 Aug 2026</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Aingeru Zaindaria 58, Ibaeta — source states 5 km from the centre and from Ondarreta/La Concha beaches; ~3.5–4 km to the Parte Vieja. Ibaeta is a served city neighbourhood (Euskotren Ibaeta stop + frequent buses), so Old Town pintxos are a 15-min transit ride, and it is on the western side, i.e. the right side for leaving toward Igeldo.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> Double rooms with full en-suite bathroom (shower). Breakfast and private parking included free. Adults only (16+). €71.20 is the published from-rate per double on the Nekatur listing loaded with these dates; not a confirmed quote for the night.</p>\n<p class=\"why\">Second sub-€80 en-suite double for the night, breakfast included, and far better connected to the Old Town than the Igeldo options.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:ss:pension-amaiur",
+       "name": "Pensión Amaiur",
+       "href": "https://pensionamaiur.com/en/habitaciones/",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "pensión"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "low confidence"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=San+Sebastian%2C+Spain&checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://pensionamaiur.com/en/habitaciones/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Pension+Amaiur+31+de+Agosto+San+Sebastian",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><span class=\"chip warn-soft\">price unchecked</span>\n<span class=\"tiny\"> no rate rendered for <span class=\"nb\">2026-09-06→07</span> · <a href=\"https://es.hoteles.com/ho998963648/pension-amaiur-san-sebastian-espana/?q-check-in=2026-09-06&amp;q-check-out=2026-09-07&amp;q-rooms=1&amp;q-room-0-adults=2\" target=\"_blank\" rel=\"noopener noreferrer\">es.hoteles.com</a> · checked 20 Aug 2026</span></p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Calle 31 de Agosto 44 — inside the Parte Vieja itself, on the Old Town&#x27;s main pintxos street, ~5 min walk to the port and &lt;1 km to La Concha. Zero transfer needed; walk straight out along the bay onto the Igeldo climb.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 12 rooms, 9.2/10 from 80 reviews. IMPORTANT CAVEAT: source describes rooms as &#x27;baño privado o baño privado exterior&#x27; — some rooms have a private bathroom located outside the room rather than true en-suite, so specify en-suite when booking. Published from-rate €75/night (centraldereservas, undated); no rate rendered for these exact dates — treat price as unchecked.</p>\n<p class=\"why\">The only credible budget-tier pensión actually inside the Parte Vieja with private-bathroom rooms and a 9.2 rating — worth a direct call given nothing else in town is under €150.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:ss:the-social-hub-san-sebastian",
+       "name": "The Social Hub San Sebastián",
+       "href": "https://www.thesocialhub.co/san-sebastian/",
+       "tier": "€€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "hotel"
+        },
+        {
+         "kind": "ok",
+         "text": "rate + availability confirmed"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/hotel/es/the-social-hub-san-sebastian.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.thesocialhub.co/san-sebastian/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=The+Social+Hub+San+Sebastian",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€156/night</b> · for <span class=\"nb\">2026-09-06→07</span> · <a href=\"https://es.hoteles.com/de1651660/hoteles-san-sebastian-alrededores-espana/?q-check-in=2026-09-06&amp;q-check-out=2026-09-07&amp;q-rooms=1&amp;q-room-0-adults=2\" target=\"_blank\" rel=\"noopener noreferrer\">es.hoteles.com</a> · seen 20 Aug 2026</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Hermanos Otamendi 11, Riberas de Loiola (Amara) — ~2 km / 25 min walk to the Parte Vieja, ~15 min walk to the train station. Flat riverside walk along the Urumea, or tram/bus.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> Private double with private bathroom (bidet, separate WC, shower). 9.2/10. Rooftop pool, gym, laundry on site — useful mid-Camino. Modern block, not characterful.</p>\n<p class=\"why\">Cheapest price confirmed for these exact dates anywhere in the city — €156 with a pool and laundry, at the cost of a 25-min walk to the Old Town.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:ss:pension-kursaal",
+       "name": "Pensión Kursaal",
+       "href": "https://www.pensionkursaal.com/",
+       "tier": "€€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "pensión"
+        },
+        {
+         "kind": "ok",
+         "text": "rate + availability confirmed"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/hotel/es/pension-kursaal.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.pensionkursaal.com/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Pension+Kursaal+San+Sebastian",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€207/night</b> · for <span class=\"nb\">2026-09-06→07</span> · <a href=\"https://es.hoteles.com/ho602405/pension-kursaal-san-sebastian-espana/?q-check-in=2026-09-06&amp;q-check-out=2026-09-07&amp;q-rooms=1&amp;q-room-0-adults=2\" target=\"_blank\" rel=\"noopener noreferrer\">es.hoteles.com</a> · seen 20 Aug 2026</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> C/ Peña y Goñi 2, Gros — ~400 m / 5 min walk: cross the Kursaal bridge and you are in the Parte Vieja. ~15 min to La Concha. Beside the Kursaal and Zurriola beach.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> Double with private en-suite bathroom, A/C, blackout curtains, safe. 9.2/10 from 217 reviews. Price includes taxes; fully refundable rates with free cancellation were offered.</p>\n<p class=\"why\">Best walkability-to-price ratio with a confirmed rate: 5 minutes from the Old Town, a strong 9.2, and free cancellation. Official site claims best-price-guaranteed direct.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:ss:pension-iturriza",
+       "name": "Pensión Iturriza",
+       "href": "https://www.booking.com/hotel/es/pension-iturriza.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",
+       "tier": "€€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "pensión"
+        },
+        {
+         "kind": "ok",
+         "text": "rate + availability confirmed"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/hotel/es/pension-iturriza.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Pension+Iturriza+San+Sebastian",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€225/night</b> · for <span class=\"nb\">2026-09-06→07</span> · <a href=\"https://es.hoteles.com/ho593193/pension-iturriza-san-sebastian-espana/?q-check-in=2026-09-06&amp;q-check-out=2026-09-07&amp;q-rooms=1&amp;q-room-0-adults=2\" target=\"_blank\" rel=\"noopener noreferrer\">es.hoteles.com</a> · seen 20 Aug 2026</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> ~0.3 km to the Parte Vieja (trip.com distance ranking), ~10 min walk to La Concha. Central, lift in building.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> Double with private en-suite bathroom, A/C, flat-screen TV. 9.4/10 from 79 reviews. Price includes taxes; fully refundable rate available.</p>\n<p class=\"why\">Highest-rated pensión within 300 m of the Old Town with a price confirmed for the actual night, and it is refundable.</p>"
+      }
+     },
+     {
+      "type": "html",
+      "html": "<p class=\"aside tiny\">Also seen, kept off the shortlist: <b>Pensión Casa Nicolasa</b> €245/night (9.6/10, 0.65 km to the Parte Vieja) and <b>Lasala Plaza Hotel</b> €503/night — both pricier and no closer than the €€€ options above; they are what sets the ceiling in the market note.</p>"
+     }
+    ]
+   },
+   {
+    "id": "zarautz",
+    "kicker": "Mon 7 Sep — night 2",
+    "title": "Zarautz",
+    "meta": "21.6 km from Donostia <span class=\"dot\">·</span> 1 night (7→8 Sep)",
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<div class=\"market\">\n<p><span class=\"lbl\">Market note</span> Zarautz has a deep bed base (3* seafront hotels, several centre pensiones with en-suite doubles, plus a dense ring of Nekatur agroturismos on the Aia/Urteta hillside), and 7 Sep 2026 is a Monday, which normally makes this the easiest night of the week.</p>\n<details><summary>Full market note</summary><p>The catch: the stay falls squarely inside Zarautz&#x27;s Euskal Jaiak / Euskal Astea (1-9 Sep 2026, main day Wed 9 Sep), so the town is in festival week with run-up events - expect tighter inventory than a normal September Monday, festival-week pricing, and late-night noise around Plaza Musika / Nagusia. Booking.com and Airbnb were robots-blocked from all fetch attempts, so no live availability or date-specific quotes could be confirmed; every option below is availability &quot;unchecked&quot; and should be phoned/booked early. Only Hotel Karlos Arguinano publishes a tariff that genuinely covers these dates (mid-season 1-15 Sep).</p></details>\n<p class=\"flag\"><b>Festival overlap:</b> <b>Euskal Jaiak / Euskal Astea runs 1–9 Sep 2026</b> (main day Wed 9), so your Monday night sits inside festival week: expect tighter inventory than a normal September Monday, festival-week pricing, and late-night noise around Plaza Musika / Nagusia. Ask for a rear or interior room at the two central pensiones, or sleep up the hill.</p>\n</div>"
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:zarautz:agroturismo-itulazabal",
+       "name": "Agroturismo Itulazabal",
+       "href": "http://www.itulazabal.com",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "agroturismo"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": false,
+         "href": "https://www.nekatur.net/itulazabal",
+         "label": "Nekatur"
+        },
+        {
+         "primary": false,
+         "href": "http://www.itulazabal.com",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Itulazabal+Zarautz",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€55/night</b> · for <span class=\"nb\">2026-09-07→08</span> · <a href=\"https://www.nekatur.net/itulazabal\" target=\"_blank\" rel=\"noopener noreferrer\">nekatur.net</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> Nekatur published &#x27;desde&#x27; base rate per double room; NOT date-confirmed - booking engine returned &#x27;No conocemos la disponibilidad de Itulazabal para estas fechas&#x27;</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> OUT OF TOWN #1 - property states &#x27;Estamos a 2 km del casco urbano de Zarautz&#x27;; ~2 km to centre and beach, on the inland Aia/Urteta hillside. Logistics: uphill approach, roughly 25-35 min walk from the seafront or a short taxi; arriving on foot off the coastal Camino means a detour inland, so plan the taxi from the promenade at stage end and back down to the route next morning. No on-site restaurant listed - eat in town before heading up, or arrange meals with the host.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> Six double rooms, all en-suite - &#x27;dotados con plato de ducha, lavabo e inodoro&#x27; (shower tray, washbasin, WC). Rooms configure as one double bed or two singles, so specify a double bed when requesting. A separate 4-person apartment exists from €120. Nekatur reservations here are request-form based, not instant-confirm.</p>\n<p class=\"why\">Textbook Nekatur agroturismo with six genuine en-suite doubles at the bottom of the price range, only 2 km above the stage-end beach.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:zarautz:agroturismo-gaikoetxe",
+       "name": "Agroturismo Gaikoetxe",
+       "href": "https://www.nekatur.net/gaikoetxe",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "agroturismo"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": false,
+         "href": "https://www.nekatur.net/gaikoetxe",
+         "label": "Nekatur"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Gaikoetxe+Urteta+Zarautz",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€60/night</b> · for <span class=\"nb\">2026-09-07→08</span> · <a href=\"https://www.nekatur.net/gaikoetxe\" target=\"_blank\" rel=\"noopener noreferrer\">nekatur.net</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> Nekatur published &#x27;desde&#x27; base rate per room, 2-3 pax occupancy; NOT date-confirmed</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> OUT OF TOWN #2 - Urteta 415, ~3 km from Zarautz centre and beach, inland toward Aia; under 1 km from Pagoeta Natural Park. Logistics: at the outer edge of the 3 km allowance and a genuine climb, so treat a taxi both ways as the default rather than walking. Being 3 km from any restaurant, the €7/person breakfast add-on and the €6/room/day kitchen access are worth pre-booking; buy dinner supplies in Zarautz before going up.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> &#x27;6 Habitaciones dobles con bano&#x27; - six en-suite doubles, each with a full bathroom with bathtub. Twin or double-bed configuration, so request the double bed explicitly. Whole-house hire from €450 exists but is irrelevant for two. Licence KSS00084 — book by phone (+34 943 132 900 / +34 686 265 122) as the Nekatur engine shows no live inventory.</p>\n<p class=\"why\">Second prime Nekatur landetxe, en-suite doubles with bath on the Pagoeta park edge, and its optional breakfast/kitchen solves the no-restaurant problem.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:zarautz:pension-txiki-polit",
+       "name": "Pension Txiki Polit",
+       "href": "https://www.txikipolit.com/",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "pensión"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/hotel/es/txiki-polit.html?checkin=2026-09-07&checkout=2026-09-08&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.txikipolit.com/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Pension+Txiki+Polit+Zarautz",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€57.50/night</b> · for <span class=\"nb\">2026-09-07→08</span> · <a href=\"https://www.centraldereservas.com/hoteles/espana/pais-vasco/guipuzcoa/zarauz/pension-txiki-polit\" target=\"_blank\" rel=\"noopener noreferrer\">centraldereservas.com</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> Central de Reservas base rate &#x27;Precio desde 57.50 EUR&#x27; for a double; NOT date-confirmed. Basque registry publishes an approximate double band of €50.00-170.00</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Orape 8, at Plaza Musika in the centre of the old town, ~100 m from the beach and right on the Camino through Zarautz. No detour; the classic pilgrim stop here and the registry itself notes its proximity to the Camino de Santiago.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 2-star pension, 34 rooms (registry HSS00583), every room with &#x27;bano completo, television y calefaccion&#x27; - full private bathroom confirmed, so en-suite is not in doubt. Own restaurant seating 150 plus cafeteria-bar, lift, cards accepted. Two flags: the registry band tops out at €170, so festival-week pricing could push this well above the € tier; and a room over Plaza Musika during Euskal Jaiak will be noisy - request a rear/interior room.</p>\n<p class=\"why\">Best-value en-suite double in the old town with its own restaurant downstairs, and the long-standing pilgrim address in Zarautz.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:zarautz:pension-musika-plaza",
+       "name": "Pension Musika Plaza",
+       "href": "https://www.musikaplaza.com",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "pensión"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/hotel/es/musika-plaza.html?checkin=2026-09-07&checkout=2026-09-08&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.musikaplaza.com",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Pension+Musika+Plaza+Zarautz",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€50/night</b> · for <span class=\"nb\">2026-09-07→08</span> · <a href=\"https://www.centraldereservas.com/hoteles/espana/pais-vasco/guipuzcoa/zarauz/pension-musika-plaza\" target=\"_blank\" rel=\"noopener noreferrer\">centraldereservas.com</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> Central de Reservas listing headline &#x27;Desde 50€&#x27;; Gronze lists doubles from €40. Both are base rates, NOT date-confirmed</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Nagusia 7 / Orape 7 in central Zarautz, ~100 m from the beach and directly on the route. No detour.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> Small pension, 9 rooms / 16 beds (registry HSS00532). Doubles and singles each with &#x27;un bano completamente equipado&#x27; - private bathroom confirmed - plus air conditioning, WiFi and international TV. Shares management with the Txiki Polit restaurant 10 m away and guests get a discounted rate there, which covers dinner. Same festival-week noise caveat as Txiki Polit: it is on the main street. Only 9 rooms, so this one sells out first.</p>\n<p class=\"why\">Cheapest confirmed en-suite double on the route through town, 100 m from the beach with a discounted dinner deal next door.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:zarautz:hotel-zarauz",
+       "name": "Hotel Zarauz",
+       "href": "https://www.hotelzarauz.com/en",
+       "tier": "€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "hotel"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/hotel/es/zarauz.html?checkin=2026-09-07&checkout=2026-09-08&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.hotelzarauz.com/en",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Zarauz+Zarautz",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><span class=\"chip warn-soft\">price unchecked</span>\n<span class=\"tiny\"> no rate rendered for <span class=\"nb\">2026-09-07→08</span> · <a href=\"https://www.booking.com/hotel/es/zarauz.html?checkin=2026-09-07&amp;checkout=2026-09-08&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0\" target=\"_blank\" rel=\"noopener noreferrer\">booking.com</a> · checked 20 Aug 2026</span></p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Nafarroa kalea 26 - hotel states 150 m from the beach and 600 m from the town centre, on the Camino corridor through Zarautz. No detour.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 3-star, en-suite throughout - official Basque tourism registry (HSS00078) confirms private full bathrooms with bath, shower and hairdryer, and publishes a double-room band of €75.00-136.00 (not date-specific). Large house (registry 142 rooms; own site says 75), which is the best hedge against festival-week scarcity. Rated 8.2 &#x27;Muy Bueno&#x27; over 224 reviews on Central de Reservas, base rate quoted there &#x27;desde €65.19&#x27;. Expect the upper half of the band during Euskal Jaiak.</p>\n<p class=\"why\">Biggest en-suite room count in town at a mid tier - the safest single phone call if festival week has squeezed the small places.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:zarautz:hotel-karlos-arguinano-hotel-ka",
+       "name": "Hotel Karlos Arguinano (Hotel KA)",
+       "href": "https://karlosarguinano.com/en/book/",
+       "tier": "€€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "hotel"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": false,
+         "href": "https://karlosarguinano.com/en/book/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Karlos+Arguinano+Zarautz",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€190/night</b> · for <span class=\"nb\">2026-09-07→08</span> · <a href=\"https://karlosarguinano.com/en/hotel/\" target=\"_blank\" rel=\"noopener noreferrer\">karlosarguinano.com</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> falls inside the hotel&#x27;s published mid-season band &#x27;1-15 September&#x27;; mid-season double with 1.5 m bed €190, double with two single beds €160, suite €240. Rate is published for the dates; live availability not verifiable.</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> C/ Mendilauta 13 - beachfront, in the turreted seaside palacete directly on the Zarautz promenade the Camino follows; roughly 600 m walk to the old town and bars. Zero detour off route.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> All rooms en-suite. Two double grades: €190 for the proper 1.5 m double bed, €160 for the twin-bed double - ask for the double bed. Continental breakfast included, a la carte for a supplement; extra bed €45. Site notes &#x27;special prices from Sunday night to Thursday&#x27;, and 7 Sep is a Monday, so ask directly about a weeknight rate below the €190 tariff. Check-in 14:00, checkout 12:00.</p>\n<p class=\"why\">The one option with a real published rate covering these exact dates - a beachfront palacete run by the Arguinano family, and a Monday-night discount is explicitly on offer.</p>"
+      }
+     },
+     {
+      "type": "html",
+      "html": "<p class=\"aside tiny\">Also seen, kept off the shortlist: <b>Hotel Alameda</b> (2-star, metres from the beach, undated “from €77”) — Hotel Zarauz covers the same mid tier with far more rooms, which matters more in festival week.</p>"
+     }
+    ]
+   },
+   {
+    "id": "deba",
+    "kicker": "Tue 8 → Thu 10 Sep — nights 3 & 4",
+    "title": "Deba",
+    "meta": "23.0 km from Zarautz <span class=\"dot\">·</span> 2 nights, same property (8→10 Sep) <span class=\"dot\">·</span> rest day Wed 9",
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<div class=\"market\">\n<p><span class=\"lbl\">Market note</span> Deba town proper has structurally thin stock: essentially one hotel (Hiru Uhinak, beachfront, opened Feb 2025), one pensión (Zumardi), a dorm-only pilgrim albergue at the Euskotren station (excluded), plus a handful of holiday apartments — so a 2-night same-property stay hinges on those few addresses.</p>\n<details><summary>Full market note</summary><p>Dates fall Tue-Thu (8-10 Sep 2026), i.e. midweek, which helps; no sold-out signal was observed, but booking.com and every property booking engine were unfetchable (robots/JS), so all availability and all prices for these exact dates are UNCHECKED and should be confirmed by phone. Rural fallback is genuinely good: Deba municipality has ~6 Nekatur-listed agroturismos. Beyond the two out-of-town picks below, further rural fallbacks are Txerturi Goikoa (Barrio Itxaspe, 5 en-suite doubles from EUR 80, &#x27;Deba 5 minutes&#x27; by car, <a href=\"https://www.nekatur.net/txerturigoikoa\" target=\"_blank\" rel=\"noopener noreferrer\">nekatur.net/txerturigoikoa</a>, tel 943 199 176) and Agroturismo Erlete Goikoa (Mardari 5, doubles EUR 55-80, 20 m off the coastal Camino, 6 km from Deba beach, tel +34 618 067 968).</p></details>\n\n</div>"
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:deba:pension-zumardi",
+       "name": "Pensión Zumardi",
+       "href": "https://pensionzumardi.com/en/",
+       "tier": "€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "pensión"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/hotel/es/pension-zumardi.html?checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://pensionzumardi.com/en/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Pension+Zumardi+Deba",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€83/night</b> · not date-specific — see caveat · <a href=\"https://pension-zumardi.hotel-guipuzcoa.com/en/\" target=\"_blank\" rel=\"noopener noreferrer\">pension-zumardi.hotel-guipuzcoa.com</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> &#x27;season deals from EUR 83&#x27; / rooms &#x27;from EUR 79&#x27; — non-date-specific from-rates seen 2026-08-20, NOT confirmed for 2026-09-08→10; Gronze separately lists doubles from EUR 75</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> In town. Marinel 12, Deba; ~300 m from the centre, ~5 min walk / ~500 m to Santiago beach. Free parking, 24 h reception.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 10 rooms; twin, double and triple. Bathrooms described with separate toilet and shower plus hairdryer/towels — read as en-suite but CONFIRM private bath explicitly when booking, as pensión stock sometimes mixes. Rated &#x27;Fabulous&#x27;, 279 reviews.</p>\n<p class=\"why\">The classic Deba pilgrim-friendly pensión — in town, near the beach, mid-price, and the one Gronze points walkers to.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:deba:txindurri-iturri-sidreria-y-casa-rural",
+       "name": "Txindurri Iturri (Sidrería y Casa Rural)",
+       "href": "https://www.txindurri.com/",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "agroturismo"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Deba%2C+Spain&checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.nekatur.net/txindurri",
+         "label": "Nekatur"
+        },
+        {
+         "primary": false,
+         "href": "https://www.txindurri.com/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Txindurri+Iturri+Itziar+Deba",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€42/night</b> · not date-specific — see caveat · <a href=\"https://www.nekatur.net/txindurri\" target=\"_blank\" rel=\"noopener noreferrer\">nekatur.net</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> Nekatur from-rate for a double room (1-2 people), non-date-specific, seen 2026-08-20; NOT confirmed for 2026-09-08→10. Conflicting signal: Central de Reservas showed &#x27;precio desde 94.00 EUR&#x27; for the same property on 2026-08-20, so budget for the higher figure until confirmed.</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> OUT OF TOWN. Mardari auzoa 12, 20829 Itziar-Deba; ~3 km from Itziar and ~6 km from Deba beach, high above the flysch cliffs. Logistics: needs a car or taxi to get down to Deba for the boat trip and dinner — not a walkable rest-day base, but the property itself serves dinner so you can simply stay put one evening.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 6 double rooms, each with its own bathroom and shower, TV and central heating (plus a 4-person apartment). Breakfast EUR 10 pp; sagardotegi/cider-house dinner menu EUR 55; EV charging EUR 10; laundry. Tel +34 699 684 490. 4.6/5 on TripAdvisor.</p>\n<p class=\"why\">Exactly the Nekatur baserri you&#x27;d want: a working organic cider farm above the flysch coast with six proper en-suite doubles and a cider-house dinner.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:deba:agroturismo-donibane",
+       "name": "Agroturismo Donibane",
+       "href": "https://www.agroturismodonibane.com/",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "agroturismo"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Deba%2C+Spain&checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.agroturismodonibane.com/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Agroturismo+Donibane+Itziar+Deba",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><span class=\"chip warn-soft\">price unchecked</span>\n<span class=\"tiny\"> <a href=\"https://turismo.euskadi.eus/es/alojamientos/agroturismo-donibane/webtur00-content/es/\" target=\"_blank\" rel=\"noopener noreferrer\">turismo.euskadi.eus</a> · checked 20 Aug 2026</span></p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> unchecked for 2026-09-08→10; the official Basque tourism record shows only &#x27;precios orientativos&#x27; with no rates, and a 2020 Gronze forum post reported EUR 35/night (too stale to quote)</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> OUT OF TOWN, ~2 km from Deba centre (Egia Auzoa, 20820 Itziar-Deba), roughly halfway between Itziar and Deba and directly on the coastal Camino de Santiago with sea views. Logistics: ~25-30 min walk down into Deba (uphill on the way back) — fine for the boat trip and dinner in town, but plan the return or a taxi if you eat late.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> Capacity 12. IMPORTANT: the official record states &#x27;habitaciones con baño propio y con baño a compartir&#x27; — it has BOTH en-suite and shared-bath rooms, so you must specifically request a double with baño propio for both nights. Kitchen use EUR 4. Modest 3.5/5 on TripAdvisor. Tel +34 617 686 337 / 943 191 554.</p>\n<p class=\"why\">The closest rural option — literally on the coastal Camino, 2 km above Deba, cheap, with sea views and home dinners.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:deba:hotel-hiru-uhinak",
+       "name": "Hotel Hiru Uhinak",
+       "href": "https://www.hiruhinak-hotel.com/en/",
+       "tier": "€€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "hotel"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Deba%2C+Spain&checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.hiruhinak-hotel.com/en/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Hiru+Uhinak+Deba",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><span class=\"chip warn-soft\">price unchecked</span>\n<span class=\"tiny\"> <a href=\"https://hiru-uhinak.basque-country-hotels.com/en/\" target=\"_blank\" rel=\"noopener noreferrer\">hiru-uhinak.basque-country-hotels.com</a> · checked 20 Aug 2026</span></p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> unchecked for 2026-09-08→10; affiliate rate calendar covering Aug-Sep 2026 showed USD 271-532 per night (lowest visible Sep date USD 271); a TripAdvisor reviewer reports &#x27;just over 200 euros per night in July&#x27;</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> In town. Markiegi Kalea 6, Deba; first line of Lapari beach, ~5 min walk to Santiago beach, nearest bus stop &#x27;Deba Centro&#x27; ~300 m. Zero logistics friction for a rest day — pier, old town, Euskotren station all walkable.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 29 rooms; doubles, double comfort, premium and attic rooms with sea views plus studios. En-suite bathrooms standard (double sinks, bathrobes, minibar). Free buffet breakfast when booking on the official site. Confirm a 2-night double by phone +34 943 190 067 / WhatsApp.</p>\n<p class=\"why\">Deba&#x27;s only real hotel and a brand-new beachfront boutique (5.0/5 on TripAdvisor, 20 reviews) — the comfort splurge for a rest day.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:deba:apartamento-de-lujo-zumardi",
+       "name": "Apartamento de Lujo Zumardi",
+       "href": "https://pensionzumardi.com/en/zumardi-apartment/",
+       "tier": "€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "airbnb / entire place"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "low confidence"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Deba%2C+Spain&checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.airbnb.com/s/Deba--Spain/homes?adults=2&checkin=2026-09-08&checkout=2026-09-10",
+         "label": "Airbnb"
+        },
+        {
+         "primary": false,
+         "href": "https://pensionzumardi.com/en/zumardi-apartment/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Apartamento+de+Lujo+Zumardi+Deba",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€90/night</b> · not date-specific — see caveat · <a href=\"https://www.rumbo.es/hoteles/espana/deba/hotel-apartamento-de-lujo-zumardi\" target=\"_blank\" rel=\"noopener noreferrer\">rumbo.es</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> &#x27;desde 90 EUR&#x27; from-rate on the Rumbo listing, non-date-specific, seen 2026-08-20; NOT confirmed for 2026-09-08→10 (listing page itself returned 404 on fetch)</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> In town, Deba centre. Sea views; two large interior parking spaces. Walkable to pier, beach, old town.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> Whole self-contained apartment (private bathroom + kitchen) run by the Pensión Zumardi people — good for a rest day where you want to cook or spread out. Rated 10/10 (&#x27;Extraordinario&#x27;) on Atrápalo. 2-night minimum should be fine but confirm directly.</p>\n<p class=\"why\">Top-rated in-town apartment with sea views and a kitchen — the best self-catering rest-day base in Deba.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:deba:agirretxe-basque-stay",
+       "name": "Agirretxe – Basque Stay",
+       "href": "https://www.booking.com/searchresults.html?ss=Deba%2C+Spain&checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",
+       "tier": "€€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "airbnb / entire place"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "low confidence"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Deba%2C+Spain&checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.airbnb.com/s/Deba--Spain/homes?adults=2&checkin=2026-09-08&checkout=2026-09-10",
+         "label": "Airbnb"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Agirretxe+Basque+Stay+Deba",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€150/night</b> · not date-specific — see caveat · <a href=\"https://www.rumbo.es/hoteles/espana/deba/hotel-agirretxe-basque-stay\" target=\"_blank\" rel=\"noopener noreferrer\">rumbo.es</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> &#x27;desde 150 EUR&#x27; from-rate on the Rumbo listing, non-date-specific, seen 2026-08-20; NOT confirmed for 2026-09-08→10 (aggregator detail pages returned 410 on fetch)</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> In town, Deba. Basque Stay run several Deba apartments (Agirretxe, Mogel, Olatu, Itsas Begi, Herri Gain) all in or beside the village — confirm which unit and its exact street before booking.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> Entire apartment/house, private bathroom and kitchen. Only ~10 reviews and the from-rate may be a whole-unit price sized for more than 2 — verify the unit is right for a couple and that both 2026-09-08 and 09 are open as one booking.</p>\n<p class=\"why\">Backup in-town apartment from the local Basque Stay operator, useful if the hotel and pensión are both gone for these dates.</p>"
+      }
+     },
+     {
+      "type": "html",
+      "html": "<h3 class=\"h2plain\">Rest day (Wed 9)</h3>\n<ul class=\"mini\">\n<li>\n<b><a href=\"https://geoparkea.eus/en/guided-tours/deba-zumaia-boat\" target=\"_blank\" rel=\"noopener noreferrer\">Geoparkea boat trip: Deba → Zumaia along the flysch cliffs</a></b>\n<p>Official Basque Coast Geopark sailing from the Anes Arrinda walkway (pier) in Deba past the flysch cliffs to Zumaia — EUR 16 (under 12s EUR 10), 1 hour, max 39 people, in Spanish and Basque, one-way so return to Deba on the Euskotren; departures depend on the state of the sea and are booked via the Deba tourist office, tel 943 192 452 (Ifar kalea 4).</p>\n<p class=\"tiny\">seen 2026-08-20 — tour confirmed operating with a September date listed (26 Sep, 17:30, Basque); a Wed 9 Sep 2026 sailing is NOT listed on the page, so treat the specific date as unchecked and phone the Deba office</p>\n</li>\n<li>\n<b><a href=\"https://geoparkea.eus/en/guided-tours/abrasion-platform\" target=\"_blank\" rel=\"noopener noreferrer\">Sakoneta flysch platform walk from Itxaspe (Deba)</a></b>\n<p>Short, free self-guided walk down from the Itxaspe hamlet above Deba to the Sakoneta abrasion platform — the most photographed flysch rock shelf on the coast, best at low tide; the guided Geopark version (&#x27;The Abrasion Platform&#x27;, EUR 17, 3 h 15, meets at Errotaberri parking in the Sakoneta quarter of Deba) is a fuller alternative.</p>\n<p class=\"tiny\">seen 2026-08-20 — guided version confirmed running in September 2026 (12 Sep 10:00 and 13 Sep 11:00), i.e. NOT on Wed 9 Sep; the self-guided walk is available any day</p>\n</li>\n<li>\n<b><a href=\"https://geoparkea.eus/en/guided-tours/deba-gothic-jewel\" target=\"_blank\" rel=\"noopener noreferrer\">Santiago beach plus the guided visit to Deba&#x27;s Gothic Santa María church</a></b>\n<p>Spend the morning on Debako Santiago hondartza, the long sand beach right beside the old town, then take the Geopark&#x27;s &#x27;Deba&#x27;s Gothic Jewel&#x27; guided visit to the Santa María parish church with its polychrome portal and 16th-century cloister — EUR 10 (under 12s EUR 6), 90 minutes, max 25, from the Deba tourist office at Ifar kalea 4.</p>\n<p class=\"tiny\">seen 2026-08-20 — tour confirmed operating (next listed departure 27 Aug 17:00, Basque); no 9 Sep date listed, so confirm with the tourist office, tel 943 192 452</p>\n</li>\n<li>\n<b><a href=\"https://www.deba.eus/en/tourism/gastronomy/restaurants/the-village-of-deba/urgain-restaurant\" target=\"_blank\" rel=\"noopener noreferrer\">Dinner at Restaurante Urgain (and pintxos in the old town)</a></b>\n<p>Deba&#x27;s best-known table, right by the beach at Hondartza 5 (tel 943 191 101), doing fresh seasonal fish and shellfish straight off the boats; the old town also has Zalburdi, Koska, Itxas-gain, Lorea and Mazzantini for a pintxos crawl on a rest-day evening.</p>\n<p class=\"tiny\">seen 2026-08-20 — listed on the Deba town tourism site; opening days and September reservations unchecked, phone ahead</p>\n</li>\n</ul>"
+     }
+    ]
+   },
+   {
+    "id": "markina",
+    "kicker": "Thu 10 Sep — night 5",
+    "title": "Markina-Xemein",
+    "meta": "23.7 km from Deba <span class=\"dot\">·</span> 1 night (10→11 Sep)",
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<div class=\"market\">\n<p><span class=\"lbl\">Market note</span> Markina-Xemein has NO hotel and NO pensión inside the town: the official municipal tourism list (markinaxemeinturismoa.eus) shows only rural baserriak/agroturismos plus a handful of licensed town-centre apartments, and mainstream OTA searches for the town fall back to Bilbao/Deba, so bookable private-double stock is genuinely tiny.</p>\n<details><summary>Full market note</summary><p>Thu 10 Sep is a weekday, which helps, and the pilgrim forums report Markina is usually gettable by phone/WhatsApp rather than online, but the apartment pool is already closing: the guest-favourite Airbnb &#x27;erdiko 9&#x27; in the historic centre returns &quot;No rooms available&quot; for exactly 2026-09-10→11 (checked 2026-08-20). Not sold out overall, but book by phone today. The two dorm-only albergues are excluded per brief (Convento del Carmen, 40 beds/6 dorms, €15; Albergue Pitis, 12 beds/5 dorms, €12-15, listed as currently closed). No <span class=\"nb\">€€€</span> tier exists in this market. Rural fallbacks beyond my 2-out-of-town cap, if the six below fail: Casa Rural Satzu (Nekatur, Ubilla-Urberuaga, 3 km, en-suite doubles listed €77-88, +34 946 169 702, <a href=\"https://www.nekatur.net/en/satzu\" target=\"_blank\" rel=\"noopener noreferrer\">nekatur.net/en/satzu</a>) and Baketxe Baserria (Zearregi, double from €65, +34 639 760 051, <a href=\"https://www.gronze.com/pais-vasco/vizcaya/zearregi/alojamiento-baketxe-baserria\" target=\"_blank\" rel=\"noopener noreferrer\">gronze.com/pais-vasco/vizcaya/zea…</a>).</p></details>\n\n</div>"
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:markina:agroturismo-ikestei",
+       "name": "Agroturismo Ikestei",
+       "href": "http://www.ikestei.net/en/rural_house/",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "agroturismo"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": false,
+         "href": "https://www.nekatur.net/en/ikestei",
+         "label": "Nekatur"
+        },
+        {
+         "primary": false,
+         "href": "http://www.ikestei.net/en/rural_house/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Agroturismo+Ikestei+Markina-Xemein",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€80/night</b> · for <span class=\"nb\">2026-09-10→11</span> · <a href=\"https://www.nekatur.net/en/ikestei\" target=\"_blank\" rel=\"noopener noreferrer\">nekatur.net</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> Nekatur published per-room rate; the property&#x27;s own site quotes €70 for a double incl. breakfast &amp; VAT — not a live quote for these dates</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Zeinka-Ziarregi Auzoa 3, Iruzubieta — 2.5 km from Markina centre, and crucially it sits ON the next morning&#x27;s route between Markina-Xemein and Ziortza-Bolibar, so it shortens the walk to the Zenarruza booking rather than adding to it. Restaurant on site, so no evening trip back into town; Iruzubieta bus stop is at the door (and is also where the Zenarruza monks collect guests).</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 4 double rooms, each with its OWN complete private bathroom, TV and heating; one adapted for reduced mobility. Rented by the room (not whole-house only). Breakfast included; dinner €18 on the property&#x27;s site (Nekatur lists dinner from €25 pp). Registered agroturismo XBI00139, Nekatur member. Phone +34 946 168 127 / +34 696 716 079 / +34 636 783 110.</p>\n<p class=\"why\">Nekatur-member Basque agroturismo, every room en-suite, own restaurant, and 2.5 km already walked toward tomorrow&#x27;s monastery — the best-fitting option in the set.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:markina:albergue-casa-rural-intxauspe",
+       "name": "Albergue-Casa Rural Intxauspe",
+       "href": "https://www.intxauspe.com/",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "albergue (private room)"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": false,
+         "href": "https://www.intxauspe.com/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Intxauspe+Markina-Xemein",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€70/night</b> · for <span class=\"nb\">2026-09-10→11</span> · <a href=\"https://www.gronze.com/pais-vasco/vizcaya/markina-xemein/albergue-casa-rural-intxauspe\" target=\"_blank\" rel=\"noopener noreferrer\">gronze.com</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> Gronze published double-room tariff for the Apr-Oct season; not a live quote for these dates</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Atxondoa Auzoa 10, on the outskirts ~800 m from the town centre (Gronze); short walk in for shops/bars, and the owners offer a free transfer from the Markina entrance on request, so it costs nothing on tired legs.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 17th-c. farmhouse with 5 double rooms: 3 with full private bathroom, 2 sharing (Basque Govt register XBI00011) — you MUST ask explicitly for one of the 3 en-suite doubles. Pilgrims only, open April-October, reservations taken. Communal dinner €16, breakfast €4.50 (Gronze). Phone +34 652 770 889 / +34 658 758 617.</p>\n<p class=\"why\">The pilgrim favourite of this stage — 4.8/5 from 62 TripAdvisor reviews, garden, famously good home-cooked dinner, and an en-suite double at the € tier.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:markina:duplex-markina-xemein",
+       "name": "Dúplex Markina Xemein",
+       "href": "https://www.booking.com/hotel/es/duplex-markina-xemein.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",
+       "tier": "€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "airbnb / entire place"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/hotel/es/duplex-markina-xemein.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Duplex+Markina+Xemein+Karmengo+Kalea+20",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><span class=\"chip warn-soft\">price unchecked</span>\n<span class=\"tiny\"> no rate rendered for <span class=\"nb\">2026-09-10→11</span> · <a href=\"https://www.booking.com/hotel/es/duplex-markina-xemein.html?checkin=2026-09-10&amp;checkout=2026-09-11&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0\" target=\"_blank\" rel=\"noopener noreferrer\">booking.com</a> · checked 20 Aug 2026</span></p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Karmengo Kalea 20 — dead centre of town, beside the Carmelite church/convent (where the municipal albergue is) and 5 min walk from Santa María; directly on the Camino line through Markina, zero detour.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 103 m² licensed tourist duplex (licence EBI02808): 2 bedrooms + 2 FULL bathrooms, sleeps up to 5 — private en-suite bathroom guaranteed, plus kitchen and washing machine (useful mid-Camino). Booked via Booking.com, not Airbnb — typed &#x27;airbnb&#x27; only as the entire-place category. 9.1/10 from ~175 reviews. Hard check-in window 15:00-18:00 and check-out 08:00-11:00: message the private host with your walking ETA. Price unverifiable — Booking.com blocks automated fetching (robots.txt); comparable centre apartments were showing €107-139/night undated.</p>\n<p class=\"why\">Highest-reviewed in-town private option (9.1/10, ~175 reviews) with two full bathrooms and a kitchen, right on the route through the old town.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:markina:hotel-antsotegi",
+       "name": "Hotel Antsotegi",
+       "href": "https://antsotegi.com/es/",
+       "tier": "€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "hotel"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/hotel/es/ansotegi.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://antsotegi.com/es/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Antsotegi+Etxebarria",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€110/night</b> · for <span class=\"nb\">2026-09-10→11</span> · <a href=\"https://www.centraldereservas.com/hoteles/espana/pais-vasco/vizcaya/etxebarria/hotel-antsotegi\" target=\"_blank\" rel=\"noopener noreferrer\">centraldereservas.com</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> lowest published &#x27;from&#x27; rate on Central de Reservas; not a live quote for these dates</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Altzaa Auzoa 15, Etxebarria — 1.5 km from Markina-Xemein per Gronze, up the Artibai valley and OFF the onward route to Bolibar, so budget a ~20 min walk back into Markina next morning before restarting the stage. Its own restaurant removes any need to go into town for dinner.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 15 individually decorated rooms in a restored medieval ironworks; all rooms have a private bathroom (baño privado) with hairdryer. Reviews mention &#x27;standard double or twin&#x27; — specify a matrimonial/double bed when booking. Basque restaurant on site. Phone +34 946 169 100.</p>\n<p class=\"why\">The only genuine hotel within reach of this stage — guaranteed en-suite double, daily housekeeping and a real restaurant, at 1.5 km.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:markina:arriaga-1",
+       "name": "Arriaga 1",
+       "href": "https://www.booking.com/hotel/es/arriaga1.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",
+       "tier": "€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "airbnb / entire place"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/hotel/es/arriaga1.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Arriaga+1+Guen-Kalea+Markina-Xemein",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><span class=\"chip warn-soft\">price unchecked</span>\n<span class=\"tiny\"> no rate rendered for <span class=\"nb\">2026-09-10→11</span> · <a href=\"https://www.booking.com/hotel/es/arriaga1.html?checkin=2026-09-10&amp;checkout=2026-09-11&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0\" target=\"_blank\" rel=\"noopener noreferrer\">booking.com</a> · checked 20 Aug 2026</span></p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Guen-Kalea 6, town centre, a couple of minutes from the main street and the bars; on the Camino through Markina, no detour. Lift in the building.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 90 m² apartment, 2 bedrooms + 2 bathrooms, sleeps 4-5 — private bathroom guaranteed; full kitchen, washing machine, balcony. Booked via Booking.com, not Airbnb — typed &#x27;airbnb&#x27; only as the entire-place category. 8.8-9.1/10 from ~130-162 reviews. Two flags: several reviews mention noise from the bar below, and one Booking mirror states cash-only payment plus a non-refundable rate — confirm both with the host. No date-verified price: undated &#x27;from&#x27; rates of €107 (alojamiento.io, <a href=\"https://www.alojamiento.io/property/arriaga-1/BC-9585441\" target=\"_blank\" rel=\"noopener noreferrer\">alojamiento.io/property/arriaga-1…</a>) and €139 (<a href=\"https://arriaga1-apartment.basque-country-hotels.com/en/\" target=\"_blank\" rel=\"noopener noreferrer\">arriaga1-apartment.basque-country…</a>) seen 2026-08-20; Booking.com itself is unfetchable.</p>\n<p class=\"why\">Second solid centre-of-town apartment with two bathrooms — the natural backup if the Dúplex is gone, since Markina&#x27;s private stock is this thin.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:markina:apartamento-en-markina-xemein-airbnb",
+       "name": "Apartamento en Markina-Xemein (Airbnb)",
+       "href": "https://www.airbnb.com/rooms/844057604123005143?check_in=2026-09-10&check_out=2026-09-11&adults=2",
+       "tier": "€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "airbnb / entire place"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "low confidence"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": false,
+         "href": "https://www.airbnb.com/rooms/844057604123005143?check_in=2026-09-10&check_out=2026-09-11&adults=2",
+         "label": "Airbnb"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Markina-Xemein+centro",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><span class=\"chip warn-soft\">price unchecked</span>\n<span class=\"tiny\"> no rate rendered for <span class=\"nb\">2026-09-10→11</span> · <a href=\"https://www.airbnb.com/rooms/844057604123005143?check_in=2026-09-10&amp;check_out=2026-09-11&amp;adults=2\" target=\"_blank\" rel=\"noopener noreferrer\">airbnb.com</a> · checked 20 Aug 2026</span></p>\n<p class=\"note\"><span class=\"lbl\">Where</span> In Markina-Xemein town (Airbnb withholds the exact street until booking); reviews praise the location as quiet and central, so effectively on/next to the route through town.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> Entire rental unit, 3 bedrooms / 1.5 bathrooms / 4 beds, sleeps 4 — private bathroom, equipped kitchen, fast WiFi (654 Mbps). 4.95★ from 78 reviews; host responds within an hour, 100% response rate. Listing reports no smoke or CO alarm. Price did not render (Airbnb loads rates via JS) — but unlike &#x27;erdiko 9&#x27;, the page did NOT show a &#x27;No rooms available&#x27; banner for 2026-09-10→11, so it is probably still open.</p>\n<p class=\"why\">Top-rated entire apartment in town (4.95★/78) and the third in-town private-bath option in a market that only has a handful.</p>"
+      }
+     }
+    ]
+   },
+   {
+    "id": "ziortza",
+    "kicker": "Fri 11 Sep — night 6",
+    "title": "Ziortza-Bolibar",
+    "meta": "7.1 km from Markina-Xemein <span class=\"dot\">·</span> 1 night (11→12 Sep)",
+    "blocks": [
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:ziortza:monasterio-de-zenarruza",
+       "name": "Monasterio de Zenarruza",
+       "href": "https://monasteriozenarruza.net/",
+       "tier": "",
+       "badge": "BOOKED ✓",
+       "booked": true,
+       "chips": [],
+       "buttons": [],
+       "bodyHTML": "<p class=\"sub2\">(Santa María de Zenarruza / Ziortza) — Cistercian monastery with pilgrim albergue + hospedería</p>\n<p class=\"note\"><span class=\"lbl\">Address</span> Monasterio de Zenarruza, Goierria Ziortza 11, 48278 Ziortza-Bolibar, Bizkaia (approx. 2 km from the Ziortza-Bolibar village centre)</p>\n<p class=\"note\"><span class=\"lbl\">Phone</span> <a href=\"tel:+34946164179\">+34 946 164 179</a></p>\n<p class=\"note\"><span class=\"lbl\">Official</span> <a href=\"https://monasteriozenarruza.net/\" target=\"_blank\" rel=\"noopener noreferrer\">https://monasteriozenarruza.net/</a></p>\n<p class=\"note\"><span class=\"lbl\">Good to know</span> Albergue check-in from 15:30 (15:45 Sundays/holidays), open all year, donativo; 28 beds across 3 dormitories (bunks, low beds and some mattresses) with the bathrooms outside the main building. One plate of dinner plus breakfast are provided; Vespers 19:30-20:00 with a pilgrim&#x27;s blessing on request afterwards. The separate hospedería has 14 private rooms at €45-50 per person with OBLIGATORY half-board, dinner taken together with the albergue pilgrims — worth confirming which of the two you actually hold. Monks will collect guests from the Iruzubieta bus stop; the monastery brews and sells its own beer. Email comunidad@monasteriozenarruza.net.</p>\n<p class=\"note\"><span class=\"lbl\">Sources</span> <span class=\"tiny\">seen 20 Aug 2026</span></p>\n<ul class=\"linklist\">\n<li><a href=\"https://monasteriozenarruza.net/contacto/\" target=\"_blank\" rel=\"noopener noreferrer\">monasteriozenarruza.net/contacto/</a></li>\n<li><a href=\"https://www.gronze.com/pais-vasco/vizcaya/ziortza/albergue-peregrinos-monasterio-zenarruza\" target=\"_blank\" rel=\"noopener noreferrer\">gronze.com/pais-vasco/vizcaya/ziortza/albergu…</a></li>\n<li><a href=\"https://www.gronze.com/pais-vasco/vizcaya/ziortza/hospederia-monasterio-zenarruza\" target=\"_blank\" rel=\"noopener noreferrer\">gronze.com/pais-vasco/vizcaya/ziortza/hospede…</a></li>\n<li><a href=\"https://www.nekatur.net/monasterio-de-ziortza-zenarruza\" target=\"_blank\" rel=\"noopener noreferrer\">nekatur.net/monasterio-de-ziortza-zenarruza</a></li>\n</ul>\n<p class=\"why\">Already held — reference only, no alternatives researched for this night.</p>"
+      }
+     }
+    ]
+   },
+   {
+    "id": "sat12",
+    "kicker": "Sat 12 Sep — night 7",
+    "title": "Stage end near Andra Mari / Eskerika (Morga)",
+    "meta": "24.8 km from Ziortza-Bolibar <span class=\"dot\">·</span> 1 night (12→13 Sep) <span class=\"dot\">·</span> the open question",
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<div class=\"verdict\">\n<h3>Question: bus/train into Bilbao on Saturday evening and back out Sunday morning?</h3>\n<div class=\"vbig\">NOT WORTH IT</div>\n<p class=\"just\">A direct Bilbao&lt;-&gt;Morga (Andra Mari) bus exists and makes Sunday work (07:00 from Bilbao, approx 60 min, on the trail approx 08:25), but it runs only 3 times a day at weekends, so the Saturday-evening transfer is approx 85-100 min door-to-door with a 17:30-or-20:00 ultimatum, breaching the approx 75 min test - and the September E4 rail timetable plus the Gernika-&gt;Morga bus arrival time are both still unpublished.</p>\n<div class=\"tiles\">\n<div class=\"tile\"><div class=\"n\">~95 min</div><div class=\"k\">Out, Sat eve<br>door to door</div></div>\n<div class=\"tile\"><div class=\"n\">~85 min</div><div class=\"k\">Back, Sun am<br>door to door</div></div>\n</div>\n<div class=\"rule\"><b>The decision rule:</b> a Bilbao sleepover only earns its keep at <b>≤ ~75 min door-to-door each way</b>. Saturday evening fails it — <b>85–100 min</b> each way, on <b>3 weekend departures a day</b>, with a 17:30-or-20:00 ultimatum at the stop after a 24.8 km day. Sunday morning alone would pass; the Saturday leg is what kills it.</div>\n<p><span class=\"lbl\">From</span> Camino stage end near Eskerika / Andra Mari, Morga (Bizkaia). Albergue Eskerika approx 43.290623,-2.739201 (Barrio Eskerika 10, Morga). Nearest usable scheduled stop = Bizkaibus &#x27;Andra Mari&#x27; (stop 48066011), BI-2713 km 21.8, opposite Morga town hall, sheltered; also Duo (48066009/10, BI-2713 km 21.0) and Okoriko (48066003/06, km 20.4) and Aretxabalegana/Morga Gane (48066012, km 19.0) on the same corridor.</p>\n<p><span class=\"lbl\">First leg on foot</span> stage end (Eskerika/Andra Mari) → Andra Mari bus stop, Morga (BI-2713 km 21.8, opposite the town hall) - the nearest stop served by both the Bilbao line (A3631) and the Gernika line (A3533) — 1.8 km / ~25 min (map estimate).</p>\n<p><span class=\"lbl\">Verified services</span></p>\n<ul>\n<li><b>Bizkaibus A3631 — Morga (Andra Mari) ↔ Bilbao (Bailén 1), ~60 min, direct.</b> The good news: a direct line exists and terminates at the sheltered Andra Mari stop opposite Morga town hall. The bad news: <b>3 runs a day at weekends</b> — from Morga 08:00 / 14:00 / <b>20:00</b>, from Bilbao Sun <b>07:00</b> / 13:00 / 19:00 (winter period 01/09/2026–23/12/2026). <a href=\"http://apps.bizkaia.eus/BBOA000M/rest/BBOA/GetLineasHorariosMunicipio?iCodigoMunicipio=66\" target=\"_blank\" rel=\"noopener noreferrer\">apps.bizkaia.eus</a> <span class=\"tiny\">seen 20 Aug 2026 · confidence med</span></li>\n<li><b>Bizkaibus A3533 — Andra Mari → Gernika, ~20 min.</b> Saturday departures from Morga every 2 h; the usable ones are <b>17:30</b> (→ Gernika 17:50) and <b>19:30</b> (→ 19:50). <a href=\"http://apps.bizkaia.eus/BBOA000M/rest/BBOA/GetLineasHorariosMunicipio?iCodigoMunicipio=66\" target=\"_blank\" rel=\"noopener noreferrer\">apps.bizkaia.eus</a> <span class=\"tiny\">seen 20 Aug 2026 · confidence high</span></li>\n<li><b>Euskotren E4 — Gernika ↔ Bilbao, ~28 min.</b> Every 30 min at :15 and :45 on Sat/Sun, first 07:45, last 22:15; get off at Zazpikaleak/Casco Viejo (~26 min), not the Matiko terminus. <b>Caveat: only the summer timetable is published</b> — no September/winter 2026 E4 poster existed on 20 Aug 2026, and Euskotren normally re-times in September. <a href=\"https://www.euskotren.eus/sites/default/files/horarios/E4_CARTEL_50x70_Verano%202026.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">euskotren.eus</a> <span class=\"tiny\">seen 20 Aug 2026 · confidence med</span></li>\n</ul>\n<p><span class=\"lbl\">Sunday return — does it work?</span> Best: A3631 07:00 Bilbao (Bailen 1) -&gt; Andra Mari/Morga approx 08:00, + approx 25 min walk = on the trail approx 08:25-08:30, i.e. comfortably before 09:30. Fallback chain (train 07:42 Matiko -&gt; Gernika 08:13, bus passing Gernika approx 08:45 -&gt; Morga approx 09:05) = on the trail approx 09:30, right at the limit. Next direct bus after 07:00 is 13:00 - a missed 07:00 kills the day.</p>\n<details><summary>What is still unverified, and the taxi shortcut</summary>\n<ul>\n<li>TAXI (connector only, not the basis of the verdict): Gernika has a taxi rank at Geltoki Plaza (station square), listed 946 25 10 02, plus individual operators advertised 24 h - source https://turadiotaxi.com/guernica-vizcaya/ seen_on 2026-08-20, aggregator directory, confidence low. A taxi Eskerika/Morga &lt;-&gt; Gernika station is roughly 10-12 km / approx 15 min, which would bring each transfer to approx 50-55 min door-to-door; no official tariff verified. Pre-booking is essential - there is no rank anywhere near Morga.</li>\n<li>UNVERIFIED 1 (rail season): euskotren.eus only publishes the SUMMER E4 timetable, in force &#x27;a partir del 22 de junio&#x27; 2026; no September/winter 2026 E4 poster existed on the horarios page as of 2026-08-20. All E4 times above are from the summer poster and are therefore med confidence for 12-13 Sep. Euskotren normally re-times in September.</li>\n<li>UNVERIFIED 2 (bus arrival times): Bizkaibus publishes only origin departure times plus a note that A3533 &#x27;passes Gernika station 20 min after leaving the origin&#x27; (Morga-&gt;Gernika) and &#x27;15 min after&#x27; (Mendata-&gt;Gernika). The Gernika -&gt; Morga arrival time is not published; approx 09:05 for the Sunday 08:45 Gernika passage is an estimate (confidence low). A3631&#x27;s 60 min Bilbao(Bailen 1) - Andra Mari running time comes from a Moovit line sheet, not from Bizkaibus itself.</li>\n<li>UNVERIFIED 3 (walk leg): OpenStreetMap/Nominatim/Overpass and Google Maps are robots-blocked to this tool, so the 1.8 km / 25 min from the Eskerika area to the Andra Mari stop is a coordinate-and-map estimate (Albergue Eskerika 43.290623,-2.739201 vs stop 48066011 at UTM 30T 520045,4794165 approx 43.300,-2.753). The walking Camino does NOT follow the BI-2713 here (gronze: walkers take a footpath, cyclists take the BI-2713), so expect a short road link to reach the stop.</li>\n<li>BACKTRACK OPTION COSTED: walking back to Gernika station from the stage end is approx 10.3 km / approx 2.5 h uphill-then-down (Camino km 10.3 Eskerika per Eroski Consumer stage sheet) - i.e. a whole extra half-stage each way. Not viable.</li>\n<li><b>For the record only (stages are locked):</b> ending Saturday ~5–6 km further on at Goikolexea/Larrabetzu would turn the Bilbao hop into a 35–40 min ride on an hourly Saturday bus — noted because it was checked, not proposed as a change.</li>\n</ul></details>\n<p><span class=\"lbl\">Timetable sources</span> <span class=\"tiny\">all seen 20 Aug 2026</span></p>\n<ul class=\"linklist\">\n<li><a href=\"https://www.euskotren.eus/es/tren/horarios\" target=\"_blank\" rel=\"noopener noreferrer\">euskotren.eus — train timetables index</a></li>\n<li><a href=\"https://www.euskotren.eus/sites/default/files/horarios/E4_CARTEL_50x70_Verano%202026.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">euskotren.eus — E4 summer 2026 poster (PDF)</a></li>\n<li><a href=\"http://apps.bizkaia.eus/BBOA000M/rest/BBOA/GetLineasHorariosMunicipio?iCodigoMunicipio=66\" target=\"_blank\" rel=\"noopener noreferrer\">apps.bizkaia.eus — Morga lines + times (API)</a></li>\n<li><a href=\"http://apps.bizkaia.eus/BBOA000M/rest/BBOA/GetParadasMunicipio?iCodigoMunicipio=66\" target=\"_blank\" rel=\"noopener noreferrer\">apps.bizkaia.eus — Morga stop records (API)</a></li>\n<li><a href=\"http://apps.bizkaia.eus/BBOA000M/rest/BBOA/GetLineasHorariosMunicipio?iCodigoMunicipio=52\" target=\"_blank\" rel=\"noopener noreferrer\">apps.bizkaia.eus — Larrabetzu lines + times (API)</a></li>\n<li><a href=\"https://apli.bizkaia.net/APPS/DANOK/TQ/DATOS_PARADAS/ITINERARIOS/A3631I.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">bizkaia.net — A3631 itinerary (PDF)</a></li>\n<li><a href=\"https://apli.bizkaia.net/APPS/DANOK/TQ/DATOS_PARADAS/ITINERARIOS/A3533I.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">bizkaia.net — A3533 itinerary, outbound (PDF)</a></li>\n<li><a href=\"https://apli.bizkaia.net/APPS/DANOK/TQ/DATOS_PARADAS/ITINERARIOS/A3533V.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">bizkaia.net — A3533 itinerary, return (PDF)</a></li>\n<li><a href=\"https://appassets.mvtdev.com/map/149/l/1505/2997400.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">moovit line sheet — A3631 running time (PDF)</a></li>\n<li><a href=\"https://datos.gob.es/en/catalogo/l02000048-bizkaibus-morga\" target=\"_blank\" rel=\"noopener noreferrer\">datos.gob.es — Bizkaibus Morga open data</a></li>\n</ul>\n</div>\n<div class=\"market\">\n<p><span class=\"lbl\">Market note</span> The on-route bucket is exceptionally thin: Albergue Eskerika is PERMANENTLY CLOSED, and the two other trailside beds (Albergue Caserio Pozueta, 16 beds in 2x8 dorms; Albergue Gerekiz AMAGI, 30 beds in 3 dorms) are dorm-only and therefore excluded.</p>\n<details><summary>Full market note</summary><p>That leaves Morga with exactly one hotel (Hotel Katxi, Andra Mari) plus Nekatur casas rurales / agroturismos scattered 2-4 km off the waymarks in Muxika. One hotel for a mid-September Saturday within 2.5 weeks is a single point of failure - book Katxi by phone the same day this fallback is adopted. Gernika-Lumo has real depth (Hotel Gernika 3*, Neguetxea boutique ~EUR150, Hotel Bolina 1*, Pension Akelarre EUR44-58, plus ~9 apartment operators) but sits ~5 km behind Saturday&#x27;s endpoint. Booking.com was robots-blocked on both property and search pages, so no price or availability is date-confirmed; every figure below is a published/starting rate seen 2026-08-20 and every option is availability &#x27;unchecked&#x27;.</p></details>\n<p class=\"flag\"><b>Albergue Eskerika is permanently closed.</b> The other two trailside beds (Caserío Pozueta, Gerekiz AMAGI) are dorm-only, so they are out under the private-double rule.</p><p class=\"flag\"><b>Hotel Katxi is the only hotel on route</b> — one hotel, one mid-September Saturday, 2.5 weeks out. It is a single point of failure: <b>phone it the day you adopt this plan</b>.</p>\n</div>\n<h3 class=\"h2plain\">So: sleep on-route Saturday</h3>\n<div class=\"bucket\"><h3>On-route — keeps Sunday at 25.9 km</h3><p>No transfer, no backtrack, Sunday’s walk into Bilbao is unchanged.</p></div>"
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:sat12:hotel-katxi",
+       "name": "Hotel Katxi",
+       "href": "https://www.katxi.com/en/reservation.html",
+       "tier": "€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "hotel"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/hotel/es/katxi.html?checkin=2026-09-12&checkout=2026-09-13&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.katxi.com/en/reservation.html",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Katxi+Morga",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€99/night</b> · for <span class=\"nb\">2026-09-12→13</span> · <a href=\"https://www.centraldereservas.com/hoteles/espana/pais-vasco/vizcaya/morga/hotel-katxi\" target=\"_blank\" rel=\"noopener noreferrer\">centraldereservas.com</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> published &#x27;desde&#x27; rate seen 2026-08-20; NOT date-verified - Booking.com robots-blocked twice</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Foruen Bidea 16-20, Barrio Andra Mari, 48115 Morga - i.e. essentially AT Saturday&#x27;s endpoint. Gronze lists it 2.2 km off the waymarked trail: walkable in ~30 min on quiet lane from the Eskerika/Morga section, or a short taxi. No shop or bar in Eskerika/Andra Mari, but Katxi runs its own asador/restaurant on site (+34 946 250 295) so dinner and breakfast are covered without moving - decisive in a hamlet this empty.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> &#x27;Doble -adults only-&#x27; with en-suite bathroom (shower, hairdryer, amenities), A/C, minibar, free WiFi, non-smoking. Also Doble Special and Junior Suites (hydromassage) if the standard double is gone. 2-star rating but 9.8/10 on trip.com (small sample, 3 reviews).</p>\n<p class=\"why\">The only hotel at the exact Saturday endpoint, with en-suite doubles and an on-site asador - the single option that keeps Sunday at 25.9 km with no logistics at all.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:sat12:agroturismo-iberreko-errota",
+       "name": "Agroturismo Iberreko Errota",
+       "href": "https://www.iberrekoerrota.es",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "agroturismo"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Muxika%2C+Spain&checkin=2026-09-12&checkout=2026-09-13&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.nekatur.net/iberreko",
+         "label": "Nekatur"
+        },
+        {
+         "primary": false,
+         "href": "https://www.iberrekoerrota.es",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Iberreko+Errota+Muxika",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€70/night</b> · for <span class=\"nb\">2026-09-12→13</span> · <a href=\"https://www.nekatur.net/iberreko\" target=\"_blank\" rel=\"noopener noreferrer\">nekatur.net</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> Nekatur &#x27;desde EUR70.00/habitacion&#x27; seen 2026-08-20; Basque tourism registry cross-check shows double EUR60-66. NOT date-verified</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Ariatza Auzoa 37, 48392 Muxika - 5 km from Gernika by road per its own listing, so it sits alongside the Gernika-&gt;Pozueta-&gt;Eskerika corridor. Estimated ~2-3 km off the waymarks near the Zugastieta/Pozueta section (exact off-trail km UNVERIFIED - no source gives it). Practical plan: taxi from Gernika (~10 min) or from the Pozueta/Eskerika section; hosts (+34 946 254 567 / +34 635 715 332) are used to arranging pickup. Rejoining the trail Sunday morning is a short taxi or ~30-40 min road walk.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 6 double rooms, all with PRIVATE bathroom (bath or shower), plus 2 twins en-suite. Rooms sold individually (not whole-house-only). Guests-only kitchen and sitting room; wheelchair accessible. Rehabilitated historic watermill inside the Urdaibai Biosphere Reserve.</p>\n<p class=\"why\">Textbook Nekatur agroturismo - en-suite doubles from EUR70, 11 reviews, rooms sold singly - and the closest genuine rural-Basque option to the endpoint after Katxi.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:sat12:casa-rural-pagaigoikoa",
+       "name": "Casa Rural Pagaigoikoa",
+       "href": "https://www.pagaigoikoa.com",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "agroturismo"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Muxika%2C+Spain&checkin=2026-09-12&checkout=2026-09-13&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.nekatur.net/pagaigoikoa",
+         "label": "Nekatur"
+        },
+        {
+         "primary": false,
+         "href": "https://www.pagaigoikoa.com",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Pagaigoikoa+Gorozika+Muxika",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€50/night</b> · for <span class=\"nb\">2026-09-12→13</span> · <a href=\"https://www.nekatur.net/pagaigoikoa\" target=\"_blank\" rel=\"noopener noreferrer\">nekatur.net</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> Nekatur &#x27;desde EUR50.00/habitacion doble&#x27; seen 2026-08-20; NOT date-verified</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Agirre 3, Gorozika, 48392 Muxika. Furthest off-route of the three: estimated ~3.5-4 km from the Gerekiz/Eskerika waymarks, up the Gorozika side valley (estimate from coordinates, UNVERIFIED - exceeds the ~3 km taste guideline). Taxi in and out is the realistic move, not a walk; confirm pickup with the host (+34 626 105 638) when booking. Include this only if Katxi and Iberreko Errota are both full.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 6 double bedrooms, each with PRIVATE bathroom, in a 14th-century stone-and-timber caserio, recently rehabilitated. Rooms sold individually; whole house also offered from EUR500 for 12+, so a Saturday group booking could swallow the whole property - ask explicitly whether single rooms are still being sold for 12 Sep.</p>\n<p class=\"why\">Cheapest en-suite double in the on-route bucket (EUR50) and the most characterful building - a 14th-century caserio - at the cost of a taxi each way.</p>"
+      }
+     },
+     {
+      "type": "html",
+      "html": "<div class=\"bucket\"><h3>Gernika — adds ~5 km to Sunday unless you transit-hop</h3><p>Real depth in beds, shops and restaurants, but it sits ~5 km <b>behind</b> Saturday’s endpoint: sleeping here makes Sunday ~31 km to Bilbao unless you pay for a morning taxi back out to Eskerika/Andra Mari. There is no useful bus or rail to the trail at Eskerika, so do not plan on transit for that hop.</p></div>"
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:sat12:hotel-gernika-adults-only",
+       "name": "Hotel Gernika (Adults Only)",
+       "href": "https://hotel-gernika.com/tarifas-y-reservas/habitacion-doble-estandar/",
+       "tier": "€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "hotel"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Gernika-Lumo%2C+Spain&checkin=2026-09-12&checkout=2026-09-13&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Booking"
+        },
+        {
+         "primary": false,
+         "href": "https://www.airbnb.com/s/Gernika-Lumo--Spain/homes?adults=2&checkin=2026-09-12&checkout=2026-09-13",
+         "label": "Airbnb"
+        },
+        {
+         "primary": false,
+         "href": "https://hotel-gernika.com/tarifas-y-reservas/habitacion-doble-estandar/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Gernika+Gernika-Lumo",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€100/night</b> · for <span class=\"nb\">2026-09-12→13</span> · <a href=\"https://hotel-gernika.com/tarifas-y-reservas/habitacion-doble-estandar/\" target=\"_blank\" rel=\"noopener noreferrer\">hotel-gernika.com</a> · seen 20 Aug 2026</p>\n<p class=\"note tiny\"><span class=\"lbl\">Rate caveat</span> official rate card for Habitacion doble estandar, EUR100.00/night, seen 2026-08-20; centraldereservas shows &#x27;desde EUR97&#x27;. NOT date-verified</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Carlos Gangoiti 17, 48300 Gernika-Lumo - 0 km off route, the Camino runs through town, and shops/pharmacy/restaurants/ATM are all on the doorstep. BUT it is ~5 km BEHIND Saturday&#x27;s endpoint. Trail km from Gernika: Pozueta 5.3, Eskerika ~8, Lezama 19.8. To reset Sunday they need a morning taxi Gernika -&gt; Eskerika/Andra Mari (~10 km by road, estimate); there is no useful bus or rail service to the trail at Eskerika/Andra Mari, so do not plan on transit - only Gernika itself has Euskotren/Bizkaibus links (timetables unchecked).</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 3-star, adults only. Standard double is &#x27;amplia y confortable&#x27; with bano completo privado (full private bathroom), satellite TV, heating, A/C, WiFi, desk, wooden floors. Check-in 15:00, check-out 12:00; 10% deposit option at booking. Breakfast not stated as included.</p>\n<p class=\"why\">The safety net if the one Morga hotel is full - real stock, restaurants and a verified EUR100 en-suite double - but sleeping here pushes Sunday to ~31 km to Bilbao unless they pay for a morning taxi back out to Eskerika/Andra Mari, and there is no transit substitute for that hop.</p>"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bilbao",
+    "kicker": "Sun 13 → Wed 16 Sep — nights 8–10",
+    "title": "Bilbao",
+    "meta": "25.9 km from the stage end on arrival day <span class=\"dot\">·</span> 3 nights (13→16 Sep) — or 4, see below",
+    "blocks": [
+     {
+      "type": "html",
+      "html": "<div class=\"market\">\n<p><span class=\"lbl\">Two windows, one decision</span> Bilbao is the only booking that depends on the Saturday verdict, so every card below carries <b>both</b> links. <b>If you take the Saturday transfer anyway:</b> 4 nights, <b>12→16 Sep</b> — the “Book 12→16” button, and the prices shown are for that window. <b>If you sleep on-route Saturday</b> (what the verdict above recommends): 3 nights, <b>13→16 Sep</b> — the “Book 13→16” button. Same property, cheaper window.</p>\n<p class=\"flag\"><b>Saturday skew:</b> adding the 12 Sep night pushes the whole centre into <span class=\"nb\">€€€</span> — the same-property premium runs ~8–24% (Sercotel €234/n vs €205/n, Petit Palace €171 vs €159, ILUNION €231 vs €187) and 59 fewer Bilbao properties are bookable.</p>\n<p class=\"flag\"><b>No <span class=\"nb\">€€</span> central option exists for a Sat-12 arrival.</b> The Casco Viejo floor for the full 4-night window is €145/night; cheaper than that means 4–6 km out of town, or dropping the Saturday.</p>\n<details><summary>Full market note</summary><p>Not sold out, but the Saturday 12 Sep night pushes the whole centre into the <span class=\"nb\">€€€</span> band: expedia.es (seen 2026-08-20) shows 178 Bilbao properties bookable for 12→16 vs 237 for 13→16 (166 vs 221 on the Casco Viejo search), and the Casco Viejo floor for the full 4-night window is €145/night (Casual Blue) — there is NO <span class=\"nb\">€€</span> (80–130) central option for a Sat-12 arrival, only €-tier stock 4–6 km out of town or properties that drop the Saturday. Same-property Saturday premium runs ~8–24%: Sercotel Arenal €234/n (12→16) vs €205/n (13→16), Petit Palace Arana €171 vs €159, Hotel Tayko €376 vs €356, ILUNION San Mamés €231 vs €187. Booking.com was robots-blocked to every fetch attempt, so all links.booking / links.booking_alt values are unpriced date-loaded deep links; every price below is from expedia.es search results in EUR incl. taxes for 2 adults / 1 room, or from Nekatur.</p></details>\n</div>"
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:bilbao:casual-blue-bilbao",
+       "name": "Casual Blue Bilbao",
+       "href": "https://www.casualhoteles.com/en/casual-blue-bilbao.html",
+       "tier": "€€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "hotel"
+        },
+        {
+         "kind": "ok",
+         "text": "rate + availability confirmed"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Casual+Blue+Bilbao%2C+Bilbao%2C+Spain&checkin=2026-09-12&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Book 12→16"
+        },
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Casual+Blue+Bilbao%2C+Bilbao%2C+Spain&checkin=2026-09-13&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Book 13→16"
+        },
+        {
+         "primary": false,
+         "href": "https://www.casualhoteles.com/en/casual-blue-bilbao.html",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Casual+Blue+Bilbao+Bilbao",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€145/night</b> · €580 total · for <span class=\"nb\">2026-09-12→16</span> · <a href=\"https://www.expedia.es/Hotel-Search?destination=Casco%20Viejo%2C%20Bilbao%2C%20Espa%C3%B1a&amp;startDate=2026-09-12&amp;endDate=2026-09-16&amp;adults=2&amp;rooms=1&amp;sort=PRICE_LOW_TO_HIGH\" target=\"_blank\" rel=\"noopener noreferrer\">expedia.es</a> · seen 20 Aug 2026</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> In Casco Viejo. Banco de España Kalea 3, 48005 — inside the Siete Calles, next to Santiago Cathedral, a few metres from Plaza Nueva, ~200 m from the Ribera market and the riverbank. 0 km to old town.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> Private double, 12–14 m² (small). Official site confirms a full private bathroom in every room type; only 9 rooms total, so it goes early. Fully refundable rate seen. Cheapest price verified for the full Sat-inclusive 4-night window anywhere in Casco Viejo — this is the market floor, not a bargain.</p>\n<p class=\"why\">Cheapest en-suite double verified inside Casco Viejo for the Saturday-inclusive window — the price floor for this stay.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:bilbao:letoh-letoh-bilbao",
+       "name": "LETOH LETOH Bilbao",
+       "href": "https://www.booking.com/searchresults.html?ss=LETOH+LETOH+Bilbao%2C+Bilbao%2C+Spain&checkin=2026-09-12&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+       "tier": "€€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "hotel"
+        },
+        {
+         "kind": "ok",
+         "text": "rate + availability confirmed"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=LETOH+LETOH+Bilbao%2C+Bilbao%2C+Spain&checkin=2026-09-12&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Book 12→16"
+        },
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=LETOH+LETOH+Bilbao%2C+Bilbao%2C+Spain&checkin=2026-09-13&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Book 13→16"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=LETOH+LETOH+Bilbao+Bilbao",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€167.25/night</b> · €669 total · for <span class=\"nb\">2026-09-12→16</span> · <a href=\"https://www.expedia.es/Hotel-Search?destination=Casco%20Viejo%2C%20Bilbao%2C%20Espa%C3%B1a&amp;startDate=2026-09-12&amp;endDate=2026-09-16&amp;adults=2&amp;rooms=1&amp;sort=RECOMMENDED\" target=\"_blank\" rel=\"noopener noreferrer\">expedia.es</a> · seen 20 Aug 2026</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> In Casco Viejo, Calle Víctor area just off Plaza Nueva (Calle Víctor 6 is given as the check-in address). 0 km to old town; ~300 m to the Nervión bank.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> Standard Double Room with private en-suite bathroom confirmed on the hotels.com listing (shower with rainfall head, free toiletries, hair dryer). 9.0/10 from 127 reviews — best-reviewed of the sub-€170 Casco Viejo set. €669 total shown after a 10% discount (list €743); the discount may lapse.</p>\n<p class=\"why\">Best review score per euro in the old town and en-suite is explicitly documented.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:bilbao:petit-palace-arana",
+       "name": "Petit Palace Arana",
+       "href": "https://www.petitpalace.com/en/petit-palace-arana/",
+       "tier": "€€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "hotel"
+        },
+        {
+         "kind": "ok",
+         "text": "rate + availability confirmed"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Petit+Palace+Arana%2C+Bilbao%2C+Spain&checkin=2026-09-12&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Book 12→16"
+        },
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Petit+Palace+Arana%2C+Bilbao%2C+Spain&checkin=2026-09-13&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Book 13→16"
+        },
+        {
+         "primary": false,
+         "href": "https://www.petitpalace.com/en/petit-palace-arana/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Petit+Palace+Arana+Bilbao",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€171/night</b> · €684 total · for <span class=\"nb\">2026-09-12→16</span> · <a href=\"https://www.expedia.es/Hotel-Search?destination=Casco%20Viejo%2C%20Bilbao%2C%20Espa%C3%B1a&amp;startDate=2026-09-12&amp;endDate=2026-09-16&amp;adults=2&amp;rooms=1&amp;sort=PRICE_LOW_TO_HIGH&amp;star=30\" target=\"_blank\" rel=\"noopener noreferrer\">expedia.es</a> · seen 20 Aug 2026</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Riverside edge of Casco Viejo. Bidebarrieta 2, 48005 — directly opposite the Arriaga theatre on El Arenal, on the Nervión bank. 0 km to old town; ~150 m to Plaza Nueva, ~100 m to Casco Viejo metro.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 3-star chain hotel, all rooms en-suite; standard doubles are compact. 8.2/10. Cheapest 3-star in Casco Viejo for the full window.</p>\n<p class=\"why\">Best location-per-euro of the whole set — literally on the Arenal riverbank where the old town meets the ría, and the smallest Saturday premium seen (€171 vs €159 without Sat).</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:bilbao:sercotel-arenal-bilbao",
+       "name": "Sercotel Arenal Bilbao",
+       "href": "https://www.booking.com/searchresults.html?ss=Sercotel+Arenal+Bilbao%2C+Bilbao%2C+Spain&checkin=2026-09-12&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+       "tier": "€€€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "hotel"
+        },
+        {
+         "kind": "ok",
+         "text": "rate + availability confirmed"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Sercotel+Arenal+Bilbao%2C+Bilbao%2C+Spain&checkin=2026-09-12&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Book 12→16"
+        },
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Sercotel+Arenal+Bilbao%2C+Bilbao%2C+Spain&checkin=2026-09-13&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Book 13→16"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Sercotel+Arenal+Bilbao+Bilbao",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€234.50/night</b> · €938 total · for <span class=\"nb\">2026-09-12→16</span> · <a href=\"https://www.expedia.es/Hotel-Search?destination=Casco%20Viejo%2C%20Bilbao%2C%20Espa%C3%B1a&amp;startDate=2026-09-12&amp;endDate=2026-09-16&amp;adults=2&amp;rooms=1&amp;sort=RECOMMENDED\" target=\"_blank\" rel=\"noopener noreferrer\">expedia.es</a> · seen 20 Aug 2026</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> Calle Los Fueros 2, 48005 — on El Arenal, the Casco Viejo riverside edge, ~150 m to Plaza Nueva and ~100 m to the Arenal bandstand / ría. 0.1 km to old town.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> 3-star, en-suite doubles, 9.0/10 (&quot;Impresionante&quot;). Fully refundable rate shown for these dates. Carries the largest absolute Saturday premium of the mid-tier set: €234/n for 12→16 vs €205/n for 13→16 — the Sat night alone effectively costs ~€320.</p>\n<p class=\"why\">High-scoring, refundable, riverside-at-the-old-town — the safe pick if the Sat-12 transport verdict lands late.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:bilbao:agroturismo-arribeiti-zarra-erandio",
+       "name": "Agroturismo Arribeiti-Zarra (Erandio)",
+       "href": "https://www.nekatur.net/arribeiti",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "agroturismo"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "low confidence"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Arribeiti-Zarra%2C+Erandio%2C+Spain&checkin=2026-09-12&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Book 12→16"
+        },
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Arribeiti-Zarra%2C+Erandio%2C+Spain&checkin=2026-09-13&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Book 13→16"
+        },
+        {
+         "primary": false,
+         "href": "https://www.nekatur.net/arribeiti",
+         "label": "Nekatur"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Arribeiti-Zarra+Erandio",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><span class=\"chip warn-soft\">price unchecked</span>\n<span class=\"tiny\"> no rate rendered for <span class=\"nb\">2026-09-12→16</span> · <a href=\"https://www.nekatur.net/arribeiti\" target=\"_blank\" rel=\"noopener noreferrer\">nekatur.net</a> · checked 20 Aug 2026</span></p>\n<p class=\"note\"><span class=\"lbl\">Where</span> OUT OF TOWN: Camino Landatxu, Escuelas de Arriaga 10, 48950 Erandio — Nekatur states ~6 km from Bilbao, on the right bank of the ría above the Abra. Metro Bilbao L1 (Erandio/Astrabudua) runs into Casco Viejo station in roughly 20 min. Note it is on the OPPOSITE bank from the Camino&#x27;s westward exit toward Barakaldo/Portugalete, so it suits a rest base rather than a walking day.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> Nekatur confirms all 6 rooms have &quot;baño completo&quot; (full private bathroom); doubles listed from €44.00/room, singles from €27.50, breakfast €4.40 pp; 11 beds total. Host phone +34 685 727 221. The €44 figure is Nekatur&#x27;s undated published &quot;from&quot; rate, NOT a quote for 2026-09-12→16 — tier &quot;€&quot; is inferred from it and must be re-verified. No online availability calendar for these dates; phone/email the host.</p>\n<p class=\"why\">The only genuinely €-tier all-en-suite option with the Basque agroturismo character the couple wants — and it sidesteps the Bilbao Saturday spike entirely.</p>"
+      }
+     },
+     {
+      "type": "card",
+      "card": {
+       "id": "r1:bilbao:pension-hostal-don-claudio",
+       "name": "Pensión / Hostal Don Claudio",
+       "href": "https://pensiondonclaudio.es/",
+       "tier": "€",
+       "badge": "",
+       "booked": false,
+       "chips": [
+        {
+         "kind": "type",
+         "text": "pensión"
+        },
+        {
+         "kind": "warn-soft",
+         "text": "availability unchecked"
+        }
+       ],
+       "buttons": [
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Pension+Don+Claudio%2C+Bilbao%2C+Spain&checkin=2026-09-12&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Book 12→16"
+        },
+        {
+         "primary": true,
+         "href": "https://www.booking.com/searchresults.html?ss=Pension+Don+Claudio%2C+Bilbao%2C+Spain&checkin=2026-09-13&checkout=2026-09-16&group_adults=2&no_rooms=1&group_children=0",
+         "label": "Book 13→16"
+        },
+        {
+         "primary": false,
+         "href": "https://pensiondonclaudio.es/",
+         "label": "Official"
+        },
+        {
+         "primary": false,
+         "href": "https://www.google.com/maps/search/?api=1&query=Pension+Don+Claudio+Bilbao",
+         "label": "Maps"
+        }
+       ],
+       "bodyHTML": "<p class=\"price\"><b>€58.67/night</b> · €176 total · for <span class=\"nb\">2026-09-13→16</span> · <a href=\"https://www.expedia.es/Hotel-Search?destination=Casco%20Viejo%2C%20Bilbao%2C%20Espa%C3%B1a&amp;startDate=2026-09-13&amp;endDate=2026-09-16&amp;adults=2&amp;rooms=1&amp;star=10&amp;sort=PRICE_LOW_TO_HIGH\" target=\"_blank\" rel=\"noopener noreferrer\">expedia.es</a> · seen 20 Aug 2026</p>\n<p class=\"note\"><span class=\"lbl\">Where</span> OUT OF TOWN: property&#x27;s own site states ~4 km from central Bilbao, ~2 km from the Bilbao Exhibition Centre and ~1.5 km from Cruces university hospital — i.e. the Barakaldo/Cruces side of the left bank, which is the bank the Camino follows out of Bilbao toward Portugalete. ~4 km to Casco Viejo; metro/Cercanías into Casco Viejo in ~15–20 min.</p>\n<p class=\"note\"><span class=\"lbl\">Room</span> MISSING THE SATURDAY: on expedia.es this property is bookable for 2026-09-13→16 at €59/night (€176 for 3 nights) but does NOT appear at all in the same search for 2026-09-12→16 — no Sat-12 arrival was offered, so the full 4-night window is not bookable as seen. Availability is therefore &quot;unchecked&quot; for 12→16, not sold out. ALSO: the official site says only 14 of its 22 rooms have a private bathroom, so an en-suite double must be requested explicitly. Per-night figure €58.67 is the 3-night average for 13→16; there is no verified price for a 12→16 stay. 8.0/10 guest score.</p>\n<p class=\"why\">By far the cheapest verified private double in the whole search — but only if the transport verdict kills the Sat-12 night, since no 12→16 stay is offered.</p>"
+      }
+     },
+     {
+      "type": "html",
+      "html": "<p class=\"aside tiny\">Also seen, kept off the shortlist: <b>Goien Boutique Hotel</b> €240.75/night (9.8/10, but the official site never states en-suite — a risk on a hard requirement) and <b>Hotel Tayko</b> €375.75/night (4-star ceiling). Sercotel Arenal covers the same price band with en-suite and refundability confirmed.</p>"
+     }
+    ]
+   }
+  ]
+ },
+ "b": {
+  "heroCaveatHTML": "<strong>Exact-price recheck completed 20 August.</strong> “Exact quote” records a tax-inclusive public result for your dates, not a held room. “Rechecked · unchecked” means the property is real and the button opens with your exact dates, but its booking form did not expose a reliable target-date EUR quote. Generic “from” prices remain clearly marked and are never presented as quotes for your stay.",
+  "legend": [
+   "€ · up to €80/night",
+   "€€ · €80–130/night",
+   "€€€ · €130–200/night",
+   "€€€+ · above €200"
+  ],
+  "routeStrip": [
+   [
+    "Sun 6 Sep",
+    "Arrive Donostia"
+   ],
+   [
+    "Mon 7 Sep · 21.6 km",
+    "Walk to Zarautz"
+   ],
+   [
+    "Tue 8 Sep · 23.0 km",
+    "Walk to Deba"
+   ],
+   [
+    "Wed 9 Sep",
+    "Rest in Deba"
+   ],
+   [
+    "Thu 10 Sep · 23.7 km",
+    "Walk to Markina"
+   ],
+   [
+    "Fri 11 Sep · 7.1 km",
+    "Walk to Ziortza"
+   ],
+   [
+    "Sat 12 Sep · 24.8 km",
+    "To Andra Mari"
+   ],
+   [
+    "Sun 13 Sep · 25.9 km",
+    "Walk to Bilbao"
+   ],
+   [
+    "Mon 14 Sep",
+    "Bilbao extra day"
+   ],
+   [
+    "Tue 15 Sep",
+    "Checkout · depart"
+   ]
+  ],
+  "quick": [
+   [
+    "Donostia",
+    "Hotel Anoeta · €€€"
+   ],
+   [
+    "Zarautz",
+    "Gaikoetxe · €"
+   ],
+   [
+    "Deba",
+    "Perlakua Saka · €"
+   ],
+   [
+    "Markina",
+    "Txomin Ostatua · €"
+   ],
+   [
+    "Ziortza",
+    "Zenarruza · booked"
+   ],
+   [
+    "Bilbao",
+    "Hotel Bilbao Plaza · €€"
+   ]
+  ],
+  "sections": [
+   {
+    "id": "donostia",
+    "title": "Donostia / San Sebastián",
+    "dates": "Check-in Sun 6 Sep · checkout Mon 7 Sep",
+    "nights": "1 night",
+    "introHTML": "This is the expensive opener. The recheck found tax-inclusive totals of €156, €189, €190 and €239 for 6–7 Sep. The central budget pension still hides its target-date EUR price, so click early.",
+    "cards": [
+     {
+      "name": "Pensión Santa Clara",
+      "type": "Pension",
+      "tier": "€",
+      "price": "Exact EUR price unavailable",
+      "priceDetail": "Rechecked for 6–7 Sep, 2 adults; the date-loaded booking form exposed no reliable EUR quote. Seen 20 Aug 2026.",
+      "priceSource": "https://www.booking.com/hotel/es/pensia3n-santa-clara.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",
+      "availability": "Rechecked · unchecked",
+      "distance": "Old Town · central",
+      "room": "Private bathrooms stated; confirm the double-room category.",
+      "why": "The central budget lead; worth clicking before accepting a €150+ hotel.",
+      "booking": "https://www.booking.com/hotel/es/pensia3n-santa-clara.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/San-Sebastian--Spain/homes?adults=2&checkin=2026-09-06&checkout=2026-09-07",
+      "official": "https://www.pensionsantaclara.com/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Pension+Santa+Clara+San+Sebastian",
+      "id": "r2:donostia:pension-santa-clara"
+     },
+     {
+      "name": "Hotel Anoeta",
+      "type": "Hotel",
+      "tier": "€€€",
+      "top": true,
+      "price": "€156 total · €156/night",
+      "priceDetail": "Exact dated total including taxes for 6–7 Sep, 2 adults; seen 20 Aug 2026. Room not held.",
+      "priceSource": "https://www.expedia.es/San-Sebastian-Hoteles-Hotel-Anoeta.h10610424.Informacion-Hotel",
+      "availability": "Exact quote · 20 Aug",
+      "distance": "Anoeta / Amara · about 2 km to Old Town",
+      "room": "Private en-suite rooms; exact quoted category was not exposed in the public result.",
+      "why": "Best balance of a verified dated total, a proper hotel room and an easy bus/walk into town.",
+      "booking": "https://www.booking.com/hotel/es/anoeta.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/San-Sebastian--Spain/homes?adults=2&checkin=2026-09-06&checkout=2026-09-07",
+      "official": "https://hotelanoeta.com/index_en.html",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Anoeta+San+Sebastian",
+      "id": "r2:donostia:hotel-anoeta"
+     },
+     {
+      "name": "Zenit San Sebastián",
+      "type": "Hotel",
+      "tier": "€€€",
+      "price": "€189 total · €189/night",
+      "priceDetail": "Exact dated total including taxes for 6–7 Sep, 2 adults; seen 20 Aug 2026. Breakfast and cancellation depend on the selected rate.",
+      "priceSource": "https://es.hoteles.com/ho475871/hotel-zenit-san-sebastian-san-sebastian-espana/?chkin=2026-09-06&chkout=2026-09-07&rm1=a2&sort=RECOMMENDED",
+      "availability": "Exact quote · 20 Aug",
+      "distance": "Morlans / Amara · about 1.7 km to waterfront",
+      "room": "Private en-suite hotel rooms; exact quoted category was not exposed in the public result.",
+      "why": "Full-service comfort within the target premium band.",
+      "booking": "https://www.booking.com/hotel/es/zenit-san-sebastian.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/San-Sebastian--Spain/homes?adults=2&checkin=2026-09-06&checkout=2026-09-07",
+      "official": "https://sansebastian.zenithoteles.com/en/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Zenit+San+Sebastian",
+      "id": "r2:donostia:zenit-san-sebastian"
+     },
+     {
+      "name": "Eurostars Amara",
+      "type": "Hotel",
+      "tier": "€€€",
+      "price": "€190 total · €190/night",
+      "priceDetail": "Exact dated total including taxes for 6–7 Sep, 2 adults; seen 20 Aug 2026. Breakfast and cancellation depend on the selected rate.",
+      "priceSource": "https://es.hoteles.com/ho105479/hotel-silken-amara-plaza-san-sebastian-espana/?chkin=2026-09-06&chkout=2026-09-07&rm1=a2&sort=RECOMMENDED",
+      "availability": "Exact quote · 20 Aug",
+      "distance": "Amara · about 1.7 km to La Concha",
+      "room": "Private en-suite hotel rooms; exact quoted category was not exposed in the public result.",
+      "why": "Quiet, transit-friendly fallback with a straightforward walk into the centre.",
+      "booking": "https://www.booking.com/hotel/es/amaraplaza.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/San-Sebastian--Spain/homes?adults=2&checkin=2026-09-06&checkout=2026-09-07",
+      "official": "https://www.eurostarshotels.com/eurostars-amara.html",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Eurostars+Amara+San+Sebastian",
+      "id": "r2:donostia:eurostars-amara"
+     },
+     {
+      "name": "Barceló Costa Vasca",
+      "type": "Hotel",
+      "tier": "€€€+",
+      "price": "€239 total · €239/night",
+      "priceDetail": "Exact dated total including taxes for 6–7 Sep, 2 adults; seen 20 Aug 2026. Breakfast, cancellation and €22/day parking are separate or rate-dependent.",
+      "priceSource": "https://es.hoteles.com/ho232642/barcelo-costa-vasca-san-sebastian-espana/?chkin=2026-09-06&chkout=2026-09-07&rm1=a2&sort=RECOMMENDED",
+      "availability": "Exact quote · 20 Aug",
+      "distance": "Antiguo · about 550 m to Ondarreta, 2.5 km to Old Town",
+      "room": "Private en-suite hotel rooms; exact quoted category was not exposed in the public result.",
+      "why": "The stretch option if you want a polished first night near Ondarreta.",
+      "booking": "https://www.booking.com/hotel/es/costavaca.html?checkin=2026-09-06&checkout=2026-09-07&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/San-Sebastian--Spain/homes?adults=2&checkin=2026-09-06&checkout=2026-09-07",
+      "official": "https://www.barcelo.com/en-us/barcelo-costa-vasca/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Barcelo+Costa+Vasca+San+Sebastian",
+      "id": "r2:donostia:barcelo-costa-vasca"
+     }
+    ]
+   },
+   {
+    "id": "zarautz",
+    "title": "Zarautz",
+    "dates": "Check-in Mon 7 Sep · checkout Tue 8 Sep",
+    "nights": "1 night",
+    "introHTML": "Nekatur exposes useful generic starting rates but not target-date inventory. Two rural favourites are included; the other cards are central.",
+    "cards": [
+     {
+      "name": "Gaikoetxe",
+      "type": "Nekatur agroturismo",
+      "tier": "€",
+      "top": true,
+      "price": "From €60 / night*",
+      "priceDetail": "Generic Nekatur starting rate, not dated to 7–8 Sep; seen 20 Aug 2026.",
+      "priceSource": "https://www.nekatur.net/en/gaikoetxe",
+      "availability": "Rechecked · unchecked",
+      "distance": "Rural hillside · about 2 km from town",
+      "room": "Six doubles, each with private bathroom.",
+      "why": "Our rural-value pick: a genuine farmhouse, en-suite room and manageable transfer.",
+      "booking": "https://www.booking.com/searchresults.html?ss=Gaikoetxe%2C+Zarautz&checkin=2026-09-07&checkout=2026-09-08&group_adults=2&no_rooms=1&group_children=0",
+      "nekatur": "https://www.nekatur.net/en/gaikoetxe",
+      "airbnb": "https://www.airbnb.com/s/Zarautz--Spain/homes?adults=2&checkin=2026-09-07&checkout=2026-09-08",
+      "official": "https://tourism.euskadi.eus/en/accomodation/gaikoetxe-turism-in-a-farm/webtur00-content/en/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Gaikoetxe+Zarautz",
+      "id": "r2:zarautz:gaikoetxe"
+     },
+     {
+      "name": "Itulazabal",
+      "type": "Nekatur agroturismo",
+      "tier": "€",
+      "price": "From €55 / night*",
+      "priceDetail": "Generic Nekatur starting rate, not dated to 7–8 Sep; seen 20 Aug 2026.",
+      "priceSource": "https://www.nekatur.net/en/itulazabal",
+      "availability": "Rechecked · unchecked",
+      "distance": "Rural · about 2 km from centre / beach",
+      "room": "Six double rooms, each listed with bathroom.",
+      "why": "The lowest Nekatur starting rate in the Zarautz sweep.",
+      "booking": "https://www.booking.com/searchresults.html?ss=Itulazabal%2C+Zarautz&checkin=2026-09-07&checkout=2026-09-08&group_adults=2&no_rooms=1&group_children=0",
+      "nekatur": "https://www.nekatur.net/en/itulazabal",
+      "airbnb": "https://www.airbnb.com/s/Zarautz--Spain/homes?adults=2&checkin=2026-09-07&checkout=2026-09-08",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Itulazabal+Zarautz",
+      "id": "r2:zarautz:itulazabal"
+     },
+     {
+      "name": "Hotel Zerupe",
+      "type": "Hotel",
+      "tier": "€€",
+      "price": "From €83 / night*",
+      "priceDetail": "Generic network starting rate, not dated to 7–8 Sep; seen 20 Aug 2026.",
+      "priceSource": "https://zerupe.hotel-guipuzcoa.com/en/",
+      "availability": "Rechecked · unchecked",
+      "distance": "Central · about 8 min walk to beach",
+      "room": "Private en-suite double; confirm category.",
+      "why": "Best central fallback if the agroturismos do not answer.",
+      "booking": "https://www.booking.com/hotel/es/zerupe.html?checkin=2026-09-07&checkout=2026-09-08&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/Zarautz--Spain/homes?adults=2&checkin=2026-09-07&checkout=2026-09-08",
+      "official": "https://hotelzerupe.com/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Zerupe+Zarautz",
+      "id": "r2:zarautz:hotel-zerupe"
+     },
+     {
+      "name": "Hotel Alameda",
+      "type": "Hotel",
+      "tier": "€€",
+      "price": "Exact EUR price unavailable",
+      "priceDetail": "Date-loaded Booking link for 7–8 Sep; no target-date EUR quote retrieved.",
+      "priceSource": "https://www.booking.com/hotel/es/alameda-zarautz.html",
+      "availability": "Rechecked · unchecked",
+      "distance": "Central · roughly 300 m from centre",
+      "room": "All rooms have private bathrooms.",
+      "why": "Traditional central hotel between the station, town and beach.",
+      "booking": "https://www.booking.com/hotel/es/alameda-zarautz.html?checkin=2026-09-07&checkout=2026-09-08&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/Zarautz--Spain/homes?adults=2&checkin=2026-09-07&checkout=2026-09-08",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Alameda+Zarautz",
+      "id": "r2:zarautz:hotel-alameda"
+     },
+     {
+      "name": "Hotel Ur Bare",
+      "type": "Boutique hotel",
+      "tier": "€€€",
+      "price": "Exact EUR price unavailable",
+      "priceDetail": "Date-loaded Booking link for 7–8 Sep; nearby-date prices were not used.",
+      "priceSource": "https://www.booking.com/hotel/es/ur-bare.html",
+      "availability": "Rechecked · unchecked",
+      "distance": "Beachfront · central Zarautz",
+      "room": "Private en-suite doubles; confirm chosen room.",
+      "why": "The premium reset: beachfront setting, breakfast and pool.",
+      "booking": "https://www.booking.com/hotel/es/ur-bare.html?checkin=2026-09-07&checkout=2026-09-08&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/Zarautz--Spain/homes?adults=2&checkin=2026-09-07&checkout=2026-09-08",
+      "official": "https://urbarehotel.com/en",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Ur+Bare+Zarautz",
+      "id": "r2:zarautz:hotel-ur-bare"
+     }
+    ]
+   },
+   {
+    "id": "deba",
+    "title": "Deba",
+    "dates": "Check-in Tue 8 Sep · checkout Thu 10 Sep",
+    "nights": "2 nights",
+    "introHTML": "Deba is the tightest small-town stop. Only two central private-room properties surfaced, backed up by two rural Nekatur stays within about 2 km.",
+    "cards": [
+     {
+      "name": "Pensión Zumardi",
+      "type": "Pension",
+      "tier": "€",
+      "price": "From €68 / night*",
+      "priceDetail": "Generic non-dated starting rate, not a quote for 8–10 Sep; seen 20 Aug 2026.",
+      "priceSource": "https://www.basque-country-hotels.com/en/deba-hotels-31284/near-city-center-176468/",
+      "availability": "Rechecked · unchecked",
+      "distance": "Central · 1 min to beach, about 200 m to centre",
+      "room": "Private bathroom reported; confirm the double category.",
+      "why": "The simplest rest-day base with no rural transfers.",
+      "booking": "https://www.booking.com/hotel/es/pension-zumardi.html?checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/Deba--Spain/homes?adults=2&checkin=2026-09-08&checkout=2026-09-10",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Pension+Zumardi+Deba",
+      "id": "r2:deba:pension-zumardi"
+     },
+     {
+      "name": "Perlakua Saka",
+      "type": "Nekatur agroturismo",
+      "tier": "€",
+      "top": true,
+      "price": "From €70 / night*",
+      "priceDetail": "Generic Nekatur rate, not dated to 8–10 Sep; seen 20 Aug 2026.",
+      "priceSource": "https://www.nekatur.net/perlakua",
+      "availability": "Rechecked · unchecked",
+      "distance": "Arriola · 1 km to Camino, about 2 km to beach",
+      "room": "Six double rooms, each with private bathroom.",
+      "why": "Best overall Deba fit: en-suite rural character without going too far out.",
+      "booking": "https://www.booking.com/searchresults.html?ss=Perlakua+Saka%2C+Deba&checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",
+      "nekatur": "https://www.nekatur.net/perlakua",
+      "airbnb": "https://www.airbnb.com/s/Deba--Spain/homes?adults=2&checkin=2026-09-08&checkout=2026-09-10",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Perlakua+Saka+Deba",
+      "id": "r2:deba:perlakua-saka"
+     },
+     {
+      "name": "Txerturi Goikoa",
+      "type": "Nekatur agroturismo",
+      "tier": "€€",
+      "price": "From €80 / night*",
+      "priceDetail": "Generic Nekatur rate, not dated to 8–10 Sep; seen 20 Aug 2026.",
+      "priceSource": "https://www.nekatur.net/txerturigoikoa",
+      "availability": "Rechecked · unchecked",
+      "distance": "Itxaspe · 1 km to Camino, about 2 km to beach",
+      "room": "Five doubles, each with private shower bathroom.",
+      "why": "The strongest mid-tier countryside alternative inside the Geopark.",
+      "booking": "https://www.booking.com/searchresults.html?ss=Txerturi+Goikoa%2C+Deba&checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",
+      "nekatur": "https://www.nekatur.net/txerturigoikoa",
+      "airbnb": "https://www.airbnb.com/s/Deba--Spain/homes?adults=2&checkin=2026-09-08&checkout=2026-09-10",
+      "official": "https://txerturi.com/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Txerturi+Goikoa+Deba",
+      "id": "r2:deba:txerturi-goikoa"
+     },
+     {
+      "name": "Hiru Uhinak Hotel",
+      "type": "Boutique hotel",
+      "tier": "€€€+",
+      "price": "Exact EUR price unavailable",
+      "priceDetail": "Rechecked for 8–10 Sep, 2 adults; no reliable target-date EUR quote was exposed. Nearby-date prices were excluded. Seen 20 Aug 2026.",
+      "priceSource": "https://www.booking.com/hotel/es/hiru-uhinak.html?checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",
+      "availability": "Rechecked · unchecked",
+      "distance": "Central · about 2 min to Santiago Beach",
+      "room": "Private en-suite hotel rooms; confirm category.",
+      "why": "Premium central fallback with beach access and wellness facilities.",
+      "booking": "https://www.booking.com/hotel/es/hiru-uhinak.html?checkin=2026-09-08&checkout=2026-09-10&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/Deba--Spain/homes?adults=2&checkin=2026-09-08&checkout=2026-09-10",
+      "official": "https://www.hiruhinak-hotel.com/en/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Hiru+Uhinak+Hotel+Deba",
+      "id": "r2:deba:hiru-uhinak-hotel"
+     }
+    ]
+   },
+   {
+    "id": "markina",
+    "title": "Markina-Xemein",
+    "dates": "Check-in Thu 10 Sep · checkout Fri 11 Sep",
+    "nights": "1 night",
+    "introHTML": "Inventory is thin and no exact-date EUR price was exposed. Txomin Ostatua is now the first-click option because its individual private en-suite doubles are clearer; Intxauspe must confirm that it will rent one en-suite room rather than the whole house.",
+    "cards": [
+     {
+      "name": "Intxauspe Landetxea",
+      "type": "Casa rural",
+      "tier": "€",
+      "price": "Indicative €70 / room*",
+      "priceDetail": "Camino listing price, not dated to 10–11 Sep; exact price unavailable. Official tourism describes whole-house rental, so confirm room-only booking. Seen 20 Aug 2026.",
+      "priceSource": "https://tourism.euskadi.eus/en/accomodation/intxauspe-rural-house/webtur00-content/en/",
+      "availability": "Room basis must be confirmed",
+      "distance": "About 800 m from centre",
+      "room": "Five doubles: three en-suite and two with shared bathrooms. Official tourism describes whole-house rental.",
+      "why": "Characterful and close, but keep it only if they confirm an individual en-suite double.",
+      "booking": "https://www.booking.com/city/es/marquina-jemein.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/Markina-Xemein--Spain/homes?adults=2&checkin=2026-09-10&checkout=2026-09-11",
+      "official": "https://www.intxauspe.com/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Intxauspe+Landetxea+Markina-Xemein",
+      "id": "r2:markina:intxauspe-landetxea"
+     },
+     {
+      "name": "Erdiko Kalea 9",
+      "type": "Entire apartment",
+      "tier": "€€",
+      "price": "Exact EUR price unavailable",
+      "priceDetail": "Rechecked for 10–11 Sep, 2 adults; the booking page exposed no reliable target-date EUR quote. Seen 20 Aug 2026.",
+      "priceSource": "https://www.booking.com/hotel/es/erdiko-kalea-9.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",
+      "availability": "Rechecked · unchecked",
+      "distance": "Central · about 300 m from town centre",
+      "room": "One-bedroom apartment; bathroom privacy was not independently exposed, so confirm before booking.",
+      "why": "Best truly central fallback if a whole apartment is fine for one night.",
+      "booking": "https://www.booking.com/hotel/es/erdiko-kalea-9.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/rooms/1425979374229862473?check_in=2026-09-10&check_out=2026-09-11&adults=2",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Erdiko+Kalea+9+Markina-Xemein",
+      "id": "r2:markina:erdiko-kalea-9"
+     },
+     {
+      "name": "Pensión Txomin Ostatua",
+      "type": "Pension",
+      "tier": "€",
+      "top": true,
+      "price": "From €48 / double*",
+      "priceDetail": "Gronze indicative price, not dated to 10–11 Sep; the exact EUR quote remains unavailable after recheck. Seen 20 Aug 2026.",
+      "priceSource": "https://www.gronze.com/pais-vasco/vizcaya/etxebarria/pension-txomin-ostatua",
+      "availability": "Rechecked · unchecked",
+      "distance": "Etxebarria · about 2 km from Markina",
+      "room": "Double/twin rooms with private bathrooms; no breakfast reported.",
+      "why": "First click in Markina: the clearest individual en-suite setup and the lowest indicative rate.",
+      "booking": "https://www.booking.com/hotel/es/pension-txomin-ostatua.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/Markina-Xemein--Spain/homes?adults=2&checkin=2026-09-10&checkout=2026-09-11",
+      "official": "https://www.txominostatua.com/ING/index.html",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Pension+Txomin+Ostatua+Etxebarria",
+      "id": "r2:markina:pension-txomin-ostatua"
+     },
+     {
+      "name": "Ikestei",
+      "type": "Nekatur agroturismo",
+      "tier": "€€",
+      "price": "From €80 / night*",
+      "priceDetail": "Official non-dated rate including breakfast and VAT; exact 10–11 Sep price and inventory were not exposed. Seen 20 Aug 2026.",
+      "priceSource": "https://www.ikestei.net/en/rural_house/",
+      "availability": "Rechecked · unchecked",
+      "distance": "Ziortza-Bolibar · about 2.5 km from Markina",
+      "room": "Four doubles with private bathrooms; breakfast included in the generic published rate.",
+      "why": "The taste pick: rural, en-suite and restaurant on site, with a short taxi transfer.",
+      "booking": "https://www.booking.com/city/es/ziortza-bolivar.html?checkin=2026-09-10&checkout=2026-09-11&group_adults=2&no_rooms=1&group_children=0",
+      "nekatur": "https://www.nekatur.net/en/ikestei",
+      "airbnb": "https://www.airbnb.com/s/Markina-Xemein--Spain/homes?adults=2&checkin=2026-09-10&checkout=2026-09-11",
+      "official": "https://www.ikestei.net/en/rural_house/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Ikestei+Ziortza-Bolibar",
+      "id": "r2:markina:ikestei"
+     }
+    ]
+   },
+   {
+    "id": "ziortza",
+    "title": "Ziortza-Bolibar",
+    "dates": "Fri 11 Sep · already arranged",
+    "nights": "Booked",
+    "introHTML": "",
+    "cards": []
+   },
+   {
+    "id": "bilbao",
+    "title": "Bilbao",
+    "dates": "Check-in Sat 12 Sep · checkout Tue 15 Sep",
+    "nights": "3 nights",
+    "introHTML": "All five Bilbao properties are central and offer private en-suite doubles, but public sources did not expose exact 12–15 Sep prices. Saturday inventory is the pressure point; every Booking and Airbnb button below carries the corrected three-night dates.",
+    "cards": [
+     {
+      "name": "Hotel Bilbao Plaza",
+      "type": "Hotel",
+      "tier": "€€",
+      "top": true,
+      "price": "Exact EUR price unavailable",
+      "priceDetail": "Date-loaded for the corrected 12–15 Sep stay; no public EUR quote retrieved.",
+      "priceSource": "https://www.hotelbilbaoplaza.com/en",
+      "availability": "Rechecked · unchecked",
+      "distance": "Nervión riverfront · 5 min to Guggenheim, under 10 min to Old Town",
+      "room": "Double/twin rooms with private bathrooms.",
+      "why": "Best balance for three nights and only a short walk from the Bailén bus arrival.",
+      "booking": "https://www.booking.com/hotel/es/bilbao-plaza.html?checkin=2026-09-12&checkout=2026-09-15&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/Bilbao--Spain/homes?adults=2&checkin=2026-09-12&checkout=2026-09-15",
+      "official": "https://www.hotelbilbaoplaza.com/en",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Bilbao+Plaza",
+      "id": "r2:bilbao:hotel-bilbao-plaza"
+     },
+     {
+      "name": "7 Kale Bed & Breakfast",
+      "type": "B&B",
+      "tier": "€€",
+      "price": "Exact EUR price unavailable",
+      "priceDetail": "Date-loaded for 12–15 Sep; no public EUR quote retrieved.",
+      "priceSource": "https://www.booking.com/hotel/es/pensia3n-ma-c-ndez-ii.html",
+      "availability": "Rechecked · unchecked",
+      "distance": "Casco Viejo · 2 min to cathedral, 3 min to Plaza Nueva",
+      "room": "All rooms have private bathrooms.",
+      "why": "Best Old Town value candidate and extremely practical for evenings.",
+      "booking": "https://www.booking.com/hotel/es/pensia3n-ma-c-ndez-ii.html?checkin=2026-09-12&checkout=2026-09-15&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/Bilbao--Spain/homes?adults=2&checkin=2026-09-12&checkout=2026-09-15",
+      "official": "https://bnb7kale.hotelbilbao.net/en/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=7+Kale+Bed+and+Breakfast+Bilbao",
+      "id": "r2:bilbao:7-kale-bed-breakfast"
+     },
+     {
+      "name": "Poshtel Bilbao Premium",
+      "type": "Hostel private room",
+      "tier": "€",
+      "price": "Exact EUR price unavailable",
+      "priceDetail": "Date-loaded for 12–15 Sep; verify that the private en-suite double, not dorm inventory, is selected.",
+      "priceSource": "https://www.hostelworld.com/hostels/p/269660/poshtel-bilbao-premium-hostel/",
+      "availability": "Rechecked · unchecked",
+      "distance": "By Guggenheim · central",
+      "room": "Private double with double bed and private bathroom documented.",
+      "why": "The most promising lower-cost private en-suite near the finish area.",
+      "booking": "https://www.booking.com/hotel/es/poshtel-bilbao-premium-hostel.html?checkin=2026-09-12&checkout=2026-09-15&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/Bilbao--Spain/homes?adults=2&checkin=2026-09-12&checkout=2026-09-15",
+      "official": "https://www.poshtelbilbao.com/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Poshtel+Bilbao+Premium+Hostel",
+      "id": "r2:bilbao:poshtel-bilbao-premium"
+     },
+     {
+      "name": "Casual Gurea Bilbao",
+      "type": "Guesthouse",
+      "tier": "€€",
+      "price": "Generic from €119 / night*",
+      "priceDetail": "Official non-dated starting rate, not a quote for 12–15 Sep; seen 20 Aug 2026.",
+      "priceSource": "https://www.casualhoteles.com/en/casual-gurea-bilbao.html",
+      "availability": "Rechecked · unchecked",
+      "distance": "Old Town · beside Santiago Cathedral",
+      "room": "Double rooms for two with private bathroom.",
+      "why": "A reliable mid-tier Old Town fallback with no transport friction.",
+      "booking": "https://www.booking.com/hotel/es/hostal-gurea.html?checkin=2026-09-12&checkout=2026-09-15&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/Bilbao--Spain/homes?adults=2&checkin=2026-09-12&checkout=2026-09-15",
+      "official": "https://www.casualhoteles.com/en/casual-gurea-bilbao.html",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Casual+Gurea+Bilbao",
+      "id": "r2:bilbao:casual-gurea-bilbao"
+     },
+     {
+      "name": "Catalonia Gran Vía Bilbao",
+      "type": "4-star hotel",
+      "tier": "€€€",
+      "price": "Generic from €149 / night*",
+      "priceDetail": "Official non-dated starting rate, not a quote for 12–15 Sep; seen 20 Aug 2026.",
+      "priceSource": "https://www.cataloniahotels.com/en/hotel/catalonia-gran-via-bilbao",
+      "availability": "Rechecked · unchecked",
+      "distance": "Gran Vía · about 13–15 min to Guggenheim",
+      "room": "21 m² double rooms with fully equipped private bathroom.",
+      "why": "Premium three-night comfort with spa and rooftop pool.",
+      "booking": "https://www.booking.com/hotel/es/catalonia-gran-via-bilbao.html?checkin=2026-09-12&checkout=2026-09-15&group_adults=2&no_rooms=1&group_children=0",
+      "airbnb": "https://www.airbnb.com/s/Bilbao--Spain/homes?adults=2&checkin=2026-09-12&checkout=2026-09-15",
+      "official": "https://www.cataloniahotels.com/en/hotel/catalonia-gran-via-bilbao",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Catalonia+Gran+Via+Bilbao",
+      "id": "r2:bilbao:catalonia-gran-via-bilbao"
+     }
+    ]
+   }
+  ],
+  "activities": [
+   {
+    "href": "https://geoparkea.eus/en/guided-tours/flysch-tour",
+    "title": "Flysch guided tour ↗",
+    "note": "Official Geopark schedule; check the 9 Sep departure."
+   },
+   {
+    "href": "https://shop.sansebastianturismoa.eus/en/product/boat-tour-to-discover-the-flysch-of-zumaia-1530/",
+    "title": "Flysch boat from Zumaia ↗",
+    "note": "Book ahead; the departure is in Zumaia, not Deba."
+   },
+   {
+    "href": "https://tourism.euskadi.eus/en/beaches-reservoirs-rivers/santiago-beach-deba/webtur00-content/en/",
+    "title": "Santiago / Lapari beach ↗",
+    "note": "The low-logistics recovery-day choice."
+   },
+   {
+    "href": "https://www.deba.eus/en/tourism/gastronomy",
+    "title": "Deba pintxos ↗",
+    "note": "Official local gastronomy directory."
+   }
+  ],
+  "ziortzaHTML": "<div class=\"section-head\"><div><h2>Ziortza-Bolibar</h2><p>Fri 11 Sep · already arranged</p></div><span class=\"night-chip\">Booked</span></div>\n      <article class=\"booked\">\n        <span class=\"status\">✓ Booked</span>\n        <h3>Hospedería del Monasterio de Zenarruza</h3>\n        <p>Goierria Ziortza 11, 48278 Ziortza-Bolibar · directly on the Camino.</p>\n        <p><strong>Phone:</strong> <a href=\"tel:+34946164179\">+34 946 164 179</a></p>\n        <div class=\"links\">\n          <a class=\"btn primary\" href=\"https://monasteriozenarruza.net/la-hospederia/\" target=\"_blank\" rel=\"noreferrer\">Official</a>\n          <a class=\"btn\" href=\"https://www.nekatur.net/monasterio-de-ziortza-zenarruza\" target=\"_blank\" rel=\"noreferrer\">Nekatur</a>\n          <a class=\"btn\" href=\"https://www.google.com/maps/search/?api=1&query=Monasterio+de+Zenarruza+Ziortza-Bolibar\" target=\"_blank\" rel=\"noreferrer\">Maps</a>\n        </div>\n      </article>",
+  "transportHTML": "\n      <div class=\"section-head\"><div><h2>Bilbao</h2><p>Check-in Sat 12 Sep · checkout Tue 15 Sep</p></div><span class=\"night-chip\">3 nights</span></div>\n      <div class=\"verdict\">\n        <span class=\"verdict-label\">Worth it · conditional</span>\n        <h3>Yes from Andra Mari stop; no from Eskerika</h3>\n        <p>The direct A3631 meets the ~75-minute rule only if Saturday's locked finish is effectively <strong>Andra Mari stop 3416</strong>. If you actually stop around Eskerika, the extra 20–35 minute walk makes each transfer roughly 85–110 minutes, so it fails the rule.</p>\n        <div class=\"journeys\">\n          <div class=\"journey\"><b>Sat 12 Sep · outbound</b><span><strong>20:00</strong> Andra Mari, Morga (stop 3416) → Bailén 1, Bilbao. Direct A3631, published route time about <strong>60 min</strong>; allow 5–15 min to a central hotel.</span></div>\n          <div class=\"journey\"><b>Sun 13 Sep · return</b><span><strong>07:00</strong> Bailén 1, Bilbao → Andra Mari, Morga. Direct A3631, about <strong>60 min</strong>; scheduled to put you back at the stage point around 08:00.</span></div>\n        </div>\n        <p class=\"transport-caveat\"><strong>Low-frequency warning:</strong> the through service has only three weekend trips in each direction. Missing Saturday’s 20:00 bus breaks the clean plan. Timetable researched 20 Aug 2026 from the current summer schedule; its accessible notice does not state an end date, so recheck 24–48 hours before travel.</p>\n        <div class=\"links\">\n          <a class=\"btn primary\" href=\"https://www.morga.eus/es-ES/Servicios/Transporte/Paginas/BilbaoGaldakaoLarrabetzu.aspx\" target=\"_blank\" rel=\"noreferrer\">Morga timetable</a>\n          <a class=\"btn\" href=\"https://www.bizkaia.eus/es/web/bizkaibus/-/horarios-de-verano-2026.-a-partir-del-1-de-junio\" target=\"_blank\" rel=\"noreferrer\">Summer 2026 notice</a>\n          <a class=\"btn\" href=\"https://apli.bizkaia.net/APPS/DANOK/TQ/DATOS_PARADAS/ITINERARIOS/A3631V.PDF\" target=\"_blank\" rel=\"noreferrer\">A3631 to Bilbao</a>\n          <a class=\"btn\" href=\"https://apli.bizkaia.net/APPS/DANOK/TQ/DATOS_PARADAS/ITINERARIOS/A3631I.PDF\" target=\"_blank\" rel=\"noreferrer\">A3631 return</a>\n          <a class=\"btn\" href=\"https://moovitapp.com/index/en/public_transit-time-a3631-Bilbao-1505-1335626-2997400-5956361-0\" target=\"_blank\" rel=\"noreferrer\">Current stop times</a>\n          <a class=\"btn\" href=\"https://www.google.com/maps/dir/43.28886,-2.7411/43.30004,-2.75235/data=!4m2!4m1!3e2\" target=\"_blank\" rel=\"noreferrer\">Eskerika walk</a>\n          <a class=\"btn\" href=\"https://www.euskotren.eus/sites/default/files/horarios/E4_CARTEL_50x70_Verano%202026_1.pdf\" target=\"_blank\" rel=\"noreferrer\">Gernika E4 alternative</a>\n        </div>\n        <p class=\"source-foot\">Why not Gernika? The official E4 is frequent and takes roughly 52 minutes from Gernika to central Bilbao, but first reaching Gernika from Andra Mari adds a rural bus/transfer. That pushes the practical trip beyond the direct A3631 and usually beyond the ~75-minute target.</p>\n      </div>\n      <p class=\"market-note\">All five Bilbao properties are central and offer private en-suite doubles, but public sources did not expose exact 12–15 Sep prices. Saturday inventory is the pressure point; every Booking and Airbnb button below carries the corrected three-night dates.</p>\n      ",
+  "fallbacks": [
+   {
+    "name": "Hotel Katxi",
+    "type": "Rural hotel",
+    "tier": "€€",
+    "top": true,
+    "price": "Exact EUR price unavailable",
+    "priceDetail": "Date-loaded for Sat 12→Sun 13 Sep; no dated rate exposed.",
+    "priceSource": "https://www.booking.com/hotel/es/katxi.html",
+    "availability": "Rechecked · unchecked",
+    "distance": "Andra Mari, Morga · Gronze places it 2.2 km off Camino",
+    "room": "Nine rooms with private full bathrooms.",
+    "why": "Best route-preserving fallback; Sunday remains 25.9 km.",
+    "booking": "https://www.booking.com/hotel/es/katxi.html?checkin=2026-09-12&checkout=2026-09-13&group_adults=2&no_rooms=1&group_children=0",
+    "airbnb": "https://www.airbnb.com/s/Morga--Spain/homes?adults=2&checkin=2026-09-12&checkout=2026-09-13",
+    "official": "https://www.katxi.com/es/",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Katxi+Andra+Mari+Morga",
+    "id": "r2:onroute:hotel-katxi"
+   },
+   {
+    "name": "Pagaigoikoa",
+    "type": "Nekatur rural house",
+    "tier": "€",
+    "price": "From €50 / night*",
+    "priceDetail": "Generic Nekatur starting rate, not dated to 12–13 Sep; seen 20 Aug 2026.",
+    "priceSource": "https://www.nekatur.net/pagaigoikoa",
+    "availability": "Rechecked · unchecked",
+    "distance": "Muxika · Camino listed 3 km away; arrange connection",
+    "room": "Six doubles, each with private shower bathroom.",
+    "why": "Best rural Nekatur fallback; intended to preserve the 25.9 km Sunday.",
+    "nekatur": "https://www.nekatur.net/pagaigoikoa",
+    "airbnb": "https://www.airbnb.com/s/Morga--Spain/homes?adults=2&checkin=2026-09-12&checkout=2026-09-13",
+    "official": "https://www.pagaigoikoa.com/",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pagaigoikoa+Muxika",
+    "id": "r2:onroute:pagaigoikoa"
+   },
+   {
+    "name": "Hotel Boliña",
+    "type": "Hotel",
+    "tier": "€",
+    "price": "Exact EUR price unavailable",
+    "priceDetail": "Date-loaded for Sat 12→Sun 13 Sep; no dated rate exposed.",
+    "priceSource": "https://www.booking.com/hotel/es/bolia-a.es.html",
+    "availability": "Rechecked · unchecked",
+    "distance": "Central Gernika · near Camino and transport",
+    "room": "Sixteen rooms, all advertised with private bathrooms.",
+    "why": "More inventory and services, but Sunday becomes about 31 km unless you transit-hop back.",
+    "booking": "https://www.booking.com/hotel/es/bolia-a.es.html?checkin=2026-09-12&checkout=2026-09-13&group_adults=2&no_rooms=1&group_children=0",
+    "airbnb": "https://www.airbnb.com/s/Gernika-Lumo--Spain/homes?adults=2&checkin=2026-09-12&checkout=2026-09-13",
+    "official": "https://www.hotelbolina.com/",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Bolina+Gernika-Lumo",
+    "id": "r2:onroute:hotel-bolina"
+   },
+   {
+    "name": "Pensión Akelarre",
+    "type": "Pension",
+    "tier": "€",
+    "price": "Exact EUR price unavailable",
+    "priceDetail": "Date-loaded for Sat 12→Sun 13 Sep; no dated rate exposed.",
+    "priceSource": "https://www.booking.com/hotel/es/akelarre-ostatua.html",
+    "availability": "Rechecked · unchecked",
+    "distance": "Central Gernika · about 70 m to bus/train",
+    "room": "All rooms listed with bathroom.",
+    "why": "The economical-looking Gernika option; same ~31 km Sunday trade-off.",
+    "booking": "https://www.booking.com/hotel/es/akelarre-ostatua.html?checkin=2026-09-12&checkout=2026-09-13&group_adults=2&no_rooms=1&group_children=0",
+    "airbnb": "https://www.airbnb.com/s/Gernika-Lumo--Spain/homes?adults=2&checkin=2026-09-12&checkout=2026-09-13",
+    "official": "https://www.hotelakelarre.com/",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pension+Akelarre+Gernika-Lumo",
+    "id": "r2:onroute:pension-akelarre"
+   }
+  ],
+  "closingHTML": "Research and exact-price recheck cut-off: 20 August 2026. Prices are shown only where a retrievable source exposed an amount; each amount says whether it applies to your dates. Property existence, room/bathroom details and distances were cross-checked against official pages, Nekatur, Booking, Gronze or current mapping listings. Nothing on this page is a reservation."
+ },
+ "generated": "2026-08-20"
+}
