@@ -344,6 +344,21 @@ h1,h2,h3{font-family:var(--serif);font-weight:600;letter-spacing:-.015em}
 .sync[data-mode=kv] .dot{background:#63d39b}
 .sync[data-mode=local] .dot{background:#e0a44f}
 .sync[data-mode=error] .dot{background:#e07a6a}
+.sharebtn{display:inline-flex;align-items:center;gap:7px;min-height:38px;padding:0 14px;border-radius:999px;
+ border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.14);color:#fff;font:inherit;font-size:.85rem;
+ font-weight:650;cursor:pointer}
+.sharebtn:hover{background:rgba(255,255,255,.24)}
+.sharebtn.done{background:#fff;color:#14362e;border-color:#fff}
+#linkmsg{margin:14px 0 0;padding:12px 14px;border-radius:13px;background:var(--ok-bg);color:var(--ok-ink);
+ border:1px solid var(--ok-line);font-size:.86rem;line-height:1.5}
+#linkmsg b{font-weight:750}
+.share-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0 0 16px;padding:13px 14px;
+ border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.share-row p{margin:0;font-size:.83rem;color:var(--mut);flex:1 1 260px;line-height:1.5}
+.share-row button{min-height:38px;padding:0 15px;border-radius:999px;border:1px solid var(--forest);
+ background:var(--forest);color:#fff;font:inherit;font-size:.83rem;font-weight:700;cursor:pointer}
+@media (prefers-color-scheme:dark){.share-row button{color:#0d1a16}}
+.share-row button.done{background:var(--ok-line);border-color:var(--ok-line);color:#fff}
 
 /* ---------- nav ---------- */
 nav.jump{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--paper) 92%,transparent);
@@ -673,9 +688,9 @@ const JS = `
    .then(function(d){
     if(d&&d.mode==="kv"){ mode="kv"; votes=d.votes||{}; save(); renderAll();
       setMode("kv","Synced"); }
-    else { mode="local"; setMode("local","This device only"); }
+    else { mode="local"; setMode("local","Saved on this device"); }
    })
-   .catch(function(){ mode="local"; setMode("local","This device only"); });
+   .catch(function(){ mode="local"; setMode("local","Saved on this device"); });
  }
 
  function push(id,voter,value){
@@ -685,6 +700,62 @@ const JS = `
    .then(function(r){ if(!r.ok) throw new Error("bad"); return r.json(); })
    .then(function(d){ if(d&&d.votes){ votes=d.votes; save(); renderAll(); } })
    .catch(function(){ setMode("error","Not saved to server"); });
+ }
+
+ /* ---- share link -------------------------------------------------------
+    No backend on a static host, so votes travel in the URL instead. Positions
+    in ITEMS (DOM order) are the wire format, base36, version-tagged so a future
+    rebuild that reorders cards cannot silently mis-apply an old link. ---- */
+ var WIRE="1";
+ function encodeVotes(){
+  var m=[],j=[];
+  ITEMS.forEach(function(it,i){ var v=votes[it.id]||{};
+   if(v.miska) m.push(i.toString(36)); if(v.jakub) j.push(i.toString(36)); });
+  return WIRE+"."+m.join(",")+"."+j.join(",");
+ }
+ function decodeVotes(str){
+  var p=String(str).split("."); if(p[0]!==WIRE) return null;
+  var out={},n=0;
+  [["miska",p[1]],["jakub",p[2]]].forEach(function(pair){
+   (pair[1]?pair[1].split(","):[]).forEach(function(x){
+    var i=parseInt(x,36); var it=ITEMS[i]; if(!it) return;
+    (out[it.id]=out[it.id]||{})[pair[0]]=true; n++;
+   });
+  });
+  return n?out:null;
+ }
+ function shareURL(){
+  return location.origin+location.pathname+"#v="+encodeURIComponent(encodeVotes());
+ }
+ function copyShare(btn){
+  var url=shareURL(), label=btn.textContent;
+  function ok(){ btn.textContent="Link copied ✓"; btn.classList.add("done");
+   setTimeout(function(){ btn.textContent=label; btn.classList.remove("done"); },2200); }
+  function fallback(){ window.prompt("Copy this link and send it over:",url); }
+  if(navigator.clipboard&&navigator.clipboard.writeText)
+   navigator.clipboard.writeText(url).then(ok,fallback);
+  else fallback();
+ }
+ function note(html){
+  var el=document.getElementById("linkmsg"); if(!el) return;
+  el.innerHTML=html; el.hidden=false;
+ }
+ function applyIncoming(){
+  var h=location.hash||"";
+  if(h.indexOf("#v=")!==0) return;
+  var incoming=decodeVotes(decodeURIComponent(h.slice(3)));
+  history.replaceState(null,"",location.pathname+location.search);
+  if(!incoming){ note("<b>That shared link could not be read.</b> It was probably made from an older version of this page — ask for a fresh one."); return; }
+  var added=0;
+  Object.keys(incoming).forEach(function(id){
+   var cur=votes[id]||{};
+   ["miska","jakub"].forEach(function(w){ if(incoming[id][w]&&!cur[w]){ cur[w]=true; added++; } });
+   votes[id]=cur;
+  });
+  save(); renderAll();
+  note(added
+   ? "<b>Merged "+added+" vote"+(added===1?"":"s")+" from that link.</b> Nothing of yours was removed — see the <a href='#shortlist'>shortlist</a>."
+   : "<b>Nothing new in that link.</b> Those picks were already on this device.");
  }
 
  /* ---- wiring ---- */
@@ -740,7 +811,15 @@ const JS = `
   b.setAttribute("aria-pressed",b.getAttribute("data-who")===me?"true":"false");
  });
  document.addEventListener("click",onVote);
+ ["share-top","share-bottom"].forEach(function(id){
+  var b=document.getElementById(id);
+  if(b) b.addEventListener("click",function(){ copyShare(b); });
+ });
  renderAll();
+ applyIncoming();
+ // a shared link opened while the page is already loaded only changes the hash,
+ // which does not re-run this script — so merge on hashchange too
+ window.addEventListener("hashchange",applyIncoming);
  navSpy();
  pull();
  setInterval(function(){ if(!document.hidden&&mode==="kv") pull(); },20000);
@@ -779,6 +858,7 @@ const html = `<!doctype html>
    <span class="q">Who's voting?</span>
    <button type="button" class="who" data-who="miska" aria-pressed="false"><span class="av av-m">M</span>Miška</button>
    <button type="button" class="who" data-who="jakub" aria-pressed="false"><span class="av av-j">J</span>Jakub</button>
+   <button type="button" class="sharebtn" id="share-top">Share my picks</button>
    <span class="sync" id="sync" data-mode="local"><span class="dot"></span><span class="txt">Checking…</span></span>
   </div>
  </div>
@@ -787,6 +867,8 @@ const html = `<!doctype html>
 ${navHTML}
 
 <div class="wrap">
+
+<div id="linkmsg" hidden></div>
 
 <section id="overview" class="stage">
  <div class="shead">
@@ -800,7 +882,8 @@ ${navHTML}
  ${disagreement}
  <div class="market" style="margin-top:16px">
   <p><b>How this page works.</b> Below are the two accommodation researches, one after the other, in full and unedited — Research 1 first, then Research 2. They cover the same nights and overlap on some properties, but they searched differently and priced differently, so keep them separate and vote on whatever you like in either.</p>
-  <p>Every option has a <b>Miška</b> and a <b>Jakub</b> button. Tap yours. Anything you both tap turns green and lands in <a href="#shortlist">the shortlist at the bottom</a>. Votes save on this device immediately, and sync between you when the server store is connected — the pill in the header tells you which.</p>
+  <p>Every option has a <b>Miška</b> and a <b>Jakub</b> button. Tap yours. Anything you both tap turns green and lands in <a href="#shortlist">the shortlist at the bottom</a>.</p>
+  <p><b>Votes live in your own browser</b> — the pill in the header says so. To compare, hit <b>Share my picks</b>, send the link, and opening it merges those votes into whatever the other phone already has. Nothing is deleted by a merge, so it is safe to swap links back and forth.</p>
  </div>
 </section>
 
@@ -832,6 +915,11 @@ ${fallbackSection}
   <p class="skicker">Where you two landed</p>
   <h2>★ Shortlist</h2>
   <p class="smeta">Live tally across both researches</p>
+ </div>
+ <div class="share-row">
+  <p><b>Comparing picks:</b> tap <b>Share my picks</b> and send the link. Opening it merges those
+  votes into whatever is already on your device, so you both end up seeing the full picture.</p>
+  <button type="button" id="share-bottom">Share my picks</button>
  </div>
  <div id="sl-body"></div>
 </section>

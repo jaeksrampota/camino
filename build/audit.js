@@ -103,6 +103,19 @@ for (const c of bCards) {
 console.log('research 2 JS card data: ' + bCards.length + ' cards · ' + bMiss + ' missing values');
 failures += bMiss;
 
+/* the page's inline script must actually parse — a stray quote in generated
+   JS is silent in the HTML but kills every interactive feature */
+try {
+  const pageSrc = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+  const m = pageSrc.match(/<script>([\s\S]*)<\/script>\s*<\/body>/);
+  if (!m) throw new Error('inline script not found');
+  new Function(m[1]);
+  console.log('inline page script: parses');
+} catch (e) {
+  console.log('    SCRIPT SYNTAX ERROR  ' + e.message);
+  failures++;
+}
+
 const aCards = data.a.sections.reduce((n, s) => n + s.blocks.filter((b) => b.type === 'card').length, 0);
 const votes = (fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8').match(/class="votes"/g) || []).length;
 console.log('vote controls: ' + votes + ' (expected ' + (aCards + bCards.length) + ')');
