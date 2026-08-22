@@ -703,6 +703,7 @@ footer p{margin:0 0 8px}
  var VOTERS=["miska","jakub"], NAMES={miska:"Miška",jakub:"Jakub"};
  var LS_VOTES="camino.votes.v1", LS_ME="camino.me.v1";
  var votes={}, me=null, mode="local";
+ var pendingMerge=[];   /* [[id,voter],...] merged from a share link, not yet on the server */
 
  function load(){ try{ votes=JSON.parse(localStorage.getItem(LS_VOTES)||"{}")||{}; }catch(e){ votes={}; }
    try{ me=localStorage.getItem(LS_ME)||null; }catch(e){} }
@@ -788,8 +789,12 @@ footer p{margin:0 0 8px}
   return fetch("/api/votes",{headers:{accept:"application/json"}})
    .then(function(r){ return r.json(); })
    .then(function(d){
-    if(d&&d.mode==="kv"){ mode="kv"; votes=d.votes||{}; save(); renderAll();
-      setMode("kv","Synced"); }
+    if(d&&d.mode==="kv"){ mode="kv"; votes=d.votes||{};
+      /* a share-link merge is not on the server yet — re-apply it over the
+         server state, or this replace would silently undo it */
+      pendingMerge.forEach(function(p){ (votes[p[0]]=votes[p[0]]||{})[p[1]]=true; });
+      save(); renderAll();
+      setMode("kv","Synced"); flushMerge(); }
     else { mode="local"; setMode("local","Saved on this device"); }
    })
    .catch(function(){ mode="local"; setMode("local","Saved on this device"); });
@@ -802,6 +807,17 @@ footer p{margin:0 0 8px}
    .then(function(r){ if(!r.ok) throw new Error("bad"); return r.json(); })
    .then(function(d){ if(d&&d.votes){ votes=d.votes; save(); renderAll(); } })
    .catch(function(){ setMode("error","Not saved to server"); });
+ }
+
+ /* A shared link is an explicit union, so on a synced host its votes have to be
+    written up as well — otherwise the next pull() replaces local state and the
+    merge vanishes while the page still says it was merged. */
+ function flushMerge(){
+  if(mode!=="kv"||!pendingMerge.length) return Promise.resolve();
+  var batch=pendingMerge.slice(); pendingMerge=[];
+  return batch.reduce(function(chain,pair){
+   return chain.then(function(){ return push(pair[0],pair[1],true); });
+  },Promise.resolve());
  }
 
  /* ---- share link -------------------------------------------------------
@@ -851,10 +867,10 @@ footer p{margin:0 0 8px}
   var added=0;
   Object.keys(incoming).forEach(function(id){
    var cur=votes[id]||{};
-   ["miska","jakub"].forEach(function(w){ if(incoming[id][w]&&!cur[w]){ cur[w]=true; added++; } });
+   ["miska","jakub"].forEach(function(w){ if(incoming[id][w]&&!cur[w]){ cur[w]=true; added++; pendingMerge.push([id,w]); } });
    votes[id]=cur;
   });
-  save(); renderAll();
+  save(); renderAll(); flushMerge();
   note(added
    ? "<b>Merged "+added+" vote"+(added===1?"":"s")+" from that link.</b> Nothing of yours was removed — see the <a href='#shortlist'>shortlist</a>."
    : "<b>Nothing new in that link.</b> Those picks were already on this device.");
@@ -867,6 +883,8 @@ footer p{margin:0 0 8px}
   var voter=btn.getAttribute("data-voter");
   var cur=votes[id]||{}; var next=!cur[voter];
   votes[id]=Object.assign({},cur); votes[id][voter]=next;
+  /* un-voting something that came in on a share link must not be re-pushed later */
+  if(!next) pendingMerge=pendingMerge.filter(function(p){ return !(p[0]===id&&p[1]===voter); });
   if(!votes[id].miska&&!votes[id].jakub) delete votes[id];
   save();
   var it=ITEMS.filter(function(x){return x.id===id;})[0]; if(it) renderOne(it);
