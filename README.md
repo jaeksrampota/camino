@@ -74,22 +74,29 @@ rebuild which reorders cards can't silently mis-apply an old link.
 
 ## Hosting
 
-Served by **GitHub Pages** from `main`, which is static-only, so `api/votes.js` never runs and the
-header pill reads *Saved on this device*. Pages on a free plan requires a public repo, which is why
-this one is public.
+Two hosts, same commit, both live:
 
-`api/votes.js` is kept because it needs no changes to work — it speaks the Upstash REST protocol
-with zero npm dependencies, and the client already probes `/api/votes` on load and upgrades itself
-to **Synced** whenever that endpoint answers. To turn on real cross-device voting:
+| | | voting |
+|---|---|---|
+| **Vercel** | https://camino-nine-pearl.vercel.app | **Synced** — shared between both of us |
+| GitHub Pages | https://jaeksrampota.github.io/camino/ | *Saved on this device* — static, no backend |
 
-1. Connect GitHub at https://vercel.com/account/login-connections
-2. Import this repo as a Vercel project
-3. Project → **Storage** → attach a Redis / Upstash store
+Use the Vercel one. Pages stays up as a fallback and is where the project started; it is static-only,
+so `api/votes.js` never runs there and each device keeps its own votes. Pages on a free plan requires
+a public repo, which is why this one is public.
 
-Vercel injects `KV_REST_API_URL` / `KV_REST_API_TOKEN` (or the `UPSTASH_REDIS_REST_*` pair, both are
-read) and shared voting starts working with no code change. Storage is one Redis hash,
-`camino:votes:v1`, fields `<optionId>|<voter>` → `"1"` — one field per vote, so concurrent writes
-can't clobber each other.
+Vercel is git-linked to `main`, so every push redeploys. There is no `package.json` on purpose:
+zero-config, `index.html` is served statically and `api/votes.js` is picked up as a Node function.
+**Never set a build command** — that is the one setting that would break it.
+
+Storage is an Upstash Redis store (`upstash-kv-orange-ribbon`) attached to the project. Vercel injects
+`KV_REST_API_URL` / `KV_REST_API_TOKEN` (the `UPSTASH_REDIS_REST_*` pair is read too) and the client
+upgrades itself from *Saved on this device* to **Synced** as soon as `/api/votes` answers with
+`mode:"kv"` — no code change was needed to switch it on. One Redis hash, `camino:votes:v1`, fields
+`<optionId>|<voter>` -> `"1"`: one field per vote, so our writes cannot clobber each other.
+
+Injected env vars only reach **new** deployments, so after attaching or changing the store the
+project has to be redeployed before the pill flips.
 
 ## Notes on the merge
 
